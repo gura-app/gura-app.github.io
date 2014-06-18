@@ -4,7 +4,7 @@ lang: en
 title: Top
 ---
 
-# ニュース
+# おしらせ
 
 <table>
 <tr><td>2014-06-18</td><td>このサイトを開設しました。</td></tr>
