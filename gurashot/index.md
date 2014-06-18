@@ -1,9 +1,10 @@
 ---
 layout: page
 lang: ja
+title: おうちで証明写真 Gura Shot
 ---
 
-# おうちで証明写真 Gura Shot
+# {{ page.title }}
 
 ## アプリケーションの紹介
 
