@@ -71,6 +71,7 @@ Gura Shot を起動すると以下の画面になります。
 ![report_picture](images/report_picture.png) ボタンをクリックすると、
 画像一覧のダイアログが開きます。
 
+![image-list](images/image-list.png)
 
 ## その他の機能
 
