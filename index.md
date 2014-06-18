@@ -4,6 +4,12 @@ lang: en
 title: Top
 ---
 
+# ニュース
+
+<table>
+<tr><td>2014-06-18</td><td>このサイトを開設しました。</td></tr>
+</table>
+
 # フリーソフト一覧
 
 <table>
