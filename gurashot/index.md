@@ -28,7 +28,8 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## インストール
 
-gurashot-1.0.0.zip をダウンロードして適当なフォルダに展開します。
+[gurashot-1.0.0.zip](https://github.com/gura-app/gurashot/releases/download/v1.0.0/gurashot-1.0.0.zip)
+をダウンロードして適当なフォルダに展開します。
 
 エキスプローラなどでスクリプトファイル `gurashot.guraw` をダブルクリックするとプログラムが起動します。
 
