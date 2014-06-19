@@ -39,7 +39,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## 簡単な使い方
 
-Gura Shot を起動すると以下の画面になります。
+アプリケーションを起動すると以下の画面になります。
 
 ![main-blank](images/main-blank-shrink.png)
 
