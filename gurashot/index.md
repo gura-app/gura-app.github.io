@@ -38,11 +38,11 @@ gurashot-1.0.0.zip をダウンロードして適当なフォルダに展開し�
 
 Gura Shot を起動すると以下の画面になります。
 
-![main-blank](images/main-blank.png)
+![main-blank](images/main-blank-shrink.png)
 
 左上の「顔抽出ウィンドウ」に画像ファイルをドラッグアンドドロップしてください。読み込むことができる画像フォーマットは JPEG、PNG、GIF、BMP です。
 
-![main-with-image](images/main-with-image.png)
+![main-with-image](images/main-with-image-shrink.png)
 
 ツールバーの ![arrow_rotate_anticlockwise](images/arrow_rotate_anticlockwise.png) ボタンと
 ![arrow_rotate_clockwise](images/arrow_rotate_clockwise.png) ボタンで画像を回転することができます。
@@ -87,37 +87,29 @@ Gura Shot を起動すると以下の画面になります。
 
 ## その他の機能
 
-メインメニューから `[ファイル(F)]-[前の画像(P)]` を実行するか、ツールバーの
-![resultset_previous](images/resultset_previous.png) ボタンをクリックすると、
-画像一覧中の前の画像を呼び出します。
-
-メインメニューから `[ファイル(F)]-[次の画像(N)]` を実行するか、ツールバーの
-![resultset_next](images/resultset_next.png) ボタンをクリックすると、
-画像一覧中の次の画像を呼び出します。
-
-メインメニューから `[画像(I)]-[フレーム表示(F)]` を実行するか、ツールバーの
-![user_frosted](images/user_frosted.png) ボタンをクリックすると、
-選択した顔の周辺にフレームを表示します。
-
-メインメニューから `[画像(I)]-[中心ガイド(C)]` を実行するか、ツールバーの
-![center_guide](images/center_guide.png) ボタンをクリックすると、
-カーソル中に中心ガイドを表示します。
-
-メインメニューから `[出力(O)]-[用紙縦方向(E)]` を実行するか、ツールバーの
-![page_white](images/page_white.png) ボタンをクリックすると、
-用紙を縦方向にして写真を配列します。
-
-メインメニューから `[出力(O)]-[用紙横方向(H)]` を実行するか、ツールバーの
-![page_white_horizontal](images/page_white_horizontal.png) ボタンをクリックすると、
-用紙を横方向にして写真を配列します。
-
-メインメニューから `[出力(O)]-[用紙方向自動設定(A)]` を実行するか、ツールバーの
-![page_white_database](images/page_white_database.png) ボタンをクリックすると、
-写真をより多く配列できる方向に用紙の向きを設定します。
-
-ツールバー中の用紙サイズ選択コンボボックスから用紙サイズを選択します。
-対応している用紙サイズは以下のとおりです。
-
+* メインメニューから `[ファイル(F)]-[前の画像(P)]` を実行するか、ツールバーの
+  ![resultset_previous](images/resultset_previous.png) ボタンをクリックすると、
+  画像一覧中の前の画像を呼び出します。
+* メインメニューから `[ファイル(F)]-[次の画像(N)]` を実行するか、ツールバーの
+  ![resultset_next](images/resultset_next.png) ボタンをクリックすると、
+  画像一覧中の次の画像を呼び出します。
+* メインメニューから `[画像(I)]-[フレーム表示(F)]` を実行するか、ツールバーの
+  ![user_frosted](images/user_frosted.png) ボタンをクリックすると、
+  選択した顔の周辺にフレームを表示します。
+*  メインメニューから `[画像(I)]-[中心ガイド(C)]` を実行するか、ツールバーの
+  ![center_guide](images/center_guide.png) ボタンをクリックすると、
+  カーソル中に中心ガイドを表示します。
+* メインメニューから `[出力(O)]-[用紙縦方向(E)]` を実行するか、ツールバーの
+  ![page_white](images/page_white.png) ボタンをクリックすると、
+  用紙を縦方向にして写真を配列します。
+* メインメニューから `[出力(O)]-[用紙横方向(H)]` を実行するか、ツールバーの
+  ![page_white_horizontal](images/page_white_horizontal.png) ボタンをクリックすると、
+  用紙を横方向にして写真を配列します。
+* メインメニューから `[出力(O)]-[用紙方向自動設定(A)]` を実行するか、ツールバーの
+  ![page_white_database](images/page_white_database.png) ボタンをクリックすると、
+  写真をより多く配列できる方向に用紙の向きを設定します。
+* ツールバー中の用紙サイズ選択コンボボックスから用紙サイズを選択します。
+  対応している用紙サイズは以下のとおりです。
 <table>
 <tr><th>用紙サイズ</th><th>寸法</th></tr>
 <tr><td>L 版</td><td>89 x 127mm</td></tr>
