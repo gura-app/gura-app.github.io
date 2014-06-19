@@ -20,7 +20,7 @@ title: Top
 Gura Shot は、デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーションです。
 </td>
 </tr>
-<tr><td><a href="gurashot/">デジカメ写真取り込みアプリ Getter Photo</a></td>
+<tr><td><a href="getterphoto/">デジカメ写真取り込みアプリ Getter Photo</a></td>
 <td>
 デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーションです。
 </td>
