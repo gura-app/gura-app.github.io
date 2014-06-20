@@ -3,6 +3,7 @@ layout: page
 lang: ja
 title: おうちで証明写真 Gura Shot
 ---
+{% assign app_version = '1.0.1' %}
 
 # {{ page.title }}
 
@@ -29,7 +30,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## インストール
 
-パッケージファイル [gurashot-1.0.0.zip](https://github.com/gura-app/gurashot/releases/download/v1.0.0/gurashot-1.0.0.zip)
+パッケージファイル [gurashot-{{ app_version }}.zip](https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip)
 をダウンロードして適当なフォルダに展開します。
 
 エキスプローラなどでスクリプトファイル `gurashot.guraw` をダブルクリックするとプログラムが起動します。
