@@ -17,6 +17,8 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
   [外務省](http://www.mofa.go.jp/mofaj/index.html) の規格に合うよう調整します。
 * 斜めにかたむいた画像を補正する機能がついています。
 * 開いた画像と抽出範囲を覚えているので、必要なときにさっと呼び出して使えます。
+* 結果を PDF で出力するので、正確な寸法で印刷できます。
+
 
 ## 動作環境
 
@@ -28,6 +30,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 また、Adobe Reader など PDF を閲覧できるソフトをインストールしておいてください。
 
+
 ## インストール
 
 パッケージファイル [gurashot-{{ app_version }}.zip](https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip)
@@ -37,6 +40,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を起動してください。
 `[セットアップ]` ボタンをクリックするとセットアップを行います。
+
 
 ## 簡単な使い方
 
@@ -66,7 +70,6 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 白丸を動かして顔の中心と頭の上、あごの先をあわせてください。
 
 ![image-tilt-adjust](images/image-tilt-adjust.png)
-
 
 
 ## 画像一覧
