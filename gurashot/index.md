@@ -76,7 +76,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 ![report_picture](images/report_picture.png) ボタンをクリックすると、
 画像一覧のダイアログが開きます。
 
-![image-list](images/image-list.png)
+![image-list](images/image-list-shrink.png)
 
 画像を選択して `[選択]` ボタンをクリックすると、「顔抽出ウィンドウ」にその画像をとりこみます。
 
