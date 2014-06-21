@@ -45,28 +45,30 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## 基本的な使い方
 
-アプリケーションを起動すると以下の画面になります。
+1. アプリケーションを起動すると以下の画面になります。
 
-![main-blank](images/main-blank-shrink.png)
+   ![main-blank](images/main-blank-shrink.png)
 
-左上の「顔抽出ウィンドウ」に画像ファイルをドラッグアンドドロップしてください。読み込むことができる画像フォーマットは JPEG、PNG、GIF、BMP です。
+2. 左上の「顔抽出ウィンドウ」に画像ファイルをドラッグアンドドロップしてください。読み込むことができる画像フォーマットは JPEG、PNG、GIF、BMP です。
 
-![main-with-image](images/main-with-image-shrink.png)
+   メインメニューから `[画像(I)]-[左回転(L)]` または `[画像(I)]-[右回転(R)]`を実行するか、ツールバーの
+   ![arrow_rotate_anticlockwise](images/arrow_rotate_anticlockwise.png) ボタンまたは
+   ![arrow_rotate_clockwise](images/arrow_rotate_clockwise.png) ボタンをクリックすると画像を 90 度回転することができます。
 
-ツールバーの ![arrow_rotate_anticlockwise](images/arrow_rotate_anticlockwise.png) ボタンと
-![arrow_rotate_clockwise](images/arrow_rotate_clockwise.png) ボタンで画像を回転することができます。
-「顔抽出ウィンドウ」で赤いカーソルを移動して、顔の中心、頭の上、あごの先をあわせます。
-画面下部の「プレビューウィンドウ」に結果が表示されます。
-必要な写真サイズを右上の「写真サイズリスト」から選択してください。
+   ![main-with-image](images/main-with-image-shrink.png)
 
-メインメニューから `[画像(I)]-[フレーム表示(F)]` を実行するか、ツールバーの
-![user_frosted](images/user_frosted.png) ボタンをクリックすると、
-選択した写真サイズに対応する抽出範囲に応じて顔の周辺にフレームを表示します。
+4. 「顔抽出ウィンドウ」で赤いカーソルを移動して、顔の中心、頭の上、あごの先をあわせます。
+   画面下部の「プレビューウィンドウ」に結果が表示されます。
 
-![image-frosted](images/image-frosted.png)
+   メインメニューから `[画像(I)]-[フレーム表示(F)]` を実行するか、ツールバーの
+   ![user_frosted](images/user_frosted.png) ボタンをクリックすると、
+   選択した写真サイズに対応する抽出範囲に応じて顔の周辺にフレームを表示します。
 
-メインメニューから `[出力(O)]-[PDFビューア(V)...]` を実行すると
-出力結果が PDF ビューア上に表示されます。
+   ![image-frosted](images/image-frosted.png)
+
+5. 必要な写真サイズを右上の「写真サイズリスト」から選択してください。
+
+6. メインメニューから `[出力(O)]-[PDFビューア(V)...]` を実行すると出力結果が PDF ビューア上に表示されます。
 
 
 ## 斜め補正機能
@@ -101,6 +103,8 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## その他の機能
 
+* メインメニューから `[出力(O)]-[PDF出力(O)...]` を実行すると
+  指定したファイル名で PDF ファイルを出力します。
 * メインメニューから `[ファイル(F)]-[前の画像(P)]` を実行するか、ツールバーの
   ![resultset_previous](images/resultset_previous.png) ボタンをクリックすると、
   画像一覧中の前の画像を呼び出します。
@@ -120,17 +124,6 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
   ![page_white_database](images/page_white_database.png) ボタンをクリックすると、
   写真をより多く配列できる方向に用紙の向きを設定します。
 * ツールバー中の用紙サイズ選択コンボボックスから用紙サイズを選択します。
-  対応している用紙サイズは以下のとおりです。
-<table>
-<tr><th>用紙サイズ</th><th>寸法</th></tr>
-<tr><td>L 版</td><td>89 x 127mm</td></tr>
-<tr><td>KG 版</td><td>102 x 152mm</td></tr>
-<tr><td>2L 版</td><td>127 x 178mm</td></tr>
-<tr><td>A4</td><td>210 x 297mm</td></tr>
-<tr><td>A3</td><td>297 x 420mm</td></tr>
-<tr><td>六切り</td><td>203 x 254mm</td></tr>
-<tr><td>四切り</td><td>254 x 305mm</td></tr>
-</table>
 
 
 ## 開発者むけ情報
