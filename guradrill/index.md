@@ -33,6 +33,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を起動してください。
 `[セットアップ]` ボタンをクリックするとセットアップを行います。
+セットアップの詳細については [Gura アプリケーションセットアップ](../setup/) をご覧ください。
 
 
 ## 使い方
@@ -56,4 +57,4 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 このアプリケーションは GitHub レポジトリで管理されています。
 以下のコマンドでレポジトリを取得することができます。
 
-    git clone https://github.com/gura-app/getterphoto.git
+    git clone https://github.com/gura-app/guradrill.git
