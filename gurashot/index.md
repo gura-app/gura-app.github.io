@@ -3,7 +3,7 @@ layout: page
 lang: ja
 title: おうちで証明写真 Gura Shot
 ---
-{% assign app_version = '1.0.1' %}
+{% assign app_version = '1.0.2' %}
 
 # {{ page.title }}
 
