@@ -133,13 +133,11 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
 
-<tr><td>v1.0.2</td><td>2014/06/24</td><td>
-<ol>
+<tr><td>v1.0.2</td><td>2014/06/24</td><td><ul>
 <li>パッケージに README を追加</li>
 <li>出力用紙サイズにはがきサイズを追加</li>
 <li>開いている画像が無い場合に画像一覧のメニューやボタンを無効化</li>
-</ol>
-</td></tr>
+</ul></td></tr>
 
 <tr><td>v1.0.1</td><td>2014/06/20</td><td>
 画面レイアウトを変更
