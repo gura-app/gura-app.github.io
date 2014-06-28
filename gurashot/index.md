@@ -49,7 +49,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## 4. 基本的な使い方
 
-1. アプリケーションを起動すると以下の画面になります。
+1. アプリケーションを起動すると以下のメイン画面が表示されます。
 
    ![main-blank](images/main-blank-shrink.png)
 
