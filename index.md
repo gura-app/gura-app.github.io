@@ -7,6 +7,7 @@ title: Top
 ## おしらせ
 
 <table>
+<tr><td>2014-06-30</td><td>Gura Shot 1.0.4 をリリースしました。</td></tr>
 <tr><td>2014-06-18</td><td>このサイトを開設しました。</td></tr>
 </table>
 
