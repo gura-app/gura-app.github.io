@@ -22,7 +22,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * コンビニなどのプリントサービスで、できるだけ正確な寸法で印刷できる機能を持っています。
 
 
-## <a name="environment">2. 動作環境</a>
+## <a name="environment"></a>2. 動作環境
 
 Windows が動作している PC を用意してください。Windows 7 で動作確認しています。
 それ以前のバージョン Windows XP、Vista でも大丈夫だと思いますが、Windows 8 は未確認です。
@@ -34,7 +34,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 また、Adobe Reader など PDF を閲覧できるソフトをインストールしておいてください。
 
 
-## <a name="install">3. インストール</a>
+## <a name="install"></a>3. インストール
 
 パッケージファイル [gurashot-{{ app_version }}.zip](https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip)
 をダウンロードして適当なフォルダに展開します。
@@ -48,7 +48,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 セットアップの詳細については [Gura アプリケーションセットアップ](../setup/) をご覧ください。
 
 
-## <a name="basic-operation">4. 基本的な使い方</a>
+## <a name="basic-operation"></a>4. 基本的な使い方
 
 1. アプリケーションを起動すると以下のメイン画面が表示されます。
 
@@ -86,7 +86,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 6. メインメニューから `[出力(O)]-[PDFビューア(V)...]` を実行すると出力結果が PDF ビューア上に表示されます。
 
 
-## <a name="tilt-adjust">5. 斜め補正機能</a>
+## <a name="tilt-adjust"></a>5. 斜め補正機能
 
 メインメニューから `[画像(I)]-[傾き調整(T)]` を実行するか、ツールバーの
 ![tilt_adj](images/tilt_adj.png) ボタンをクリックすると、
@@ -96,7 +96,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 ![image-tilt-adjust](images/image-tilt-adjust.png)
 
 
-## <a name="image-list">6. 画像一覧</a>
+## <a name="image-list"></a>6. 画像一覧
 
 一度とりこんだ画像は、画像一覧に記録されます。
 
@@ -123,7 +123,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
   画像一覧中の次の画像を呼び出します。
 
 
-## <a name="image-label">7. 画像ラベル</a>
+## <a name="image-label"></a>7. 画像ラベル
 
 開いた画像には画像ラベルがつけられており、「顔抽出ウィンドウ」の下や画像一覧に表示されます。
 とりこんだ時点ではファイル名を画像ラベルにしますが、以下の操作で編集することができます。
@@ -137,7 +137,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 分かりやすい画像ラベルをつけておくと、後々必要な画像を呼び出す際に便利です。
 
-## <a name="color-adjust">8. 色彩調整</a>
+## <a name="color-adjust"></a>8. 色彩調整
 
 開いた画像ごとに色彩の調整をすることができます。
 
@@ -156,7 +156,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 「セピア調」を選択すると、`[調整]` ボタンをクリックすることでセピア色として定義する色を編集することができます。
 
 
-## <a name="output">9. 出力機能</a>
+## <a name="output"></a>9. 出力機能
 
 メインメニューから `[出力(O)]-[PDF出力(O)...]` を実行すると
 指定したファイル名で PDF ファイルを出力します。
@@ -183,7 +183,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
   写真をより多く収められる方向に用紙の向きを設定します。これがデフォルトです。
 
 
-## <a name="print-service">10. プリントサービス機能</a>
+## <a name="print-service"></a>10. プリントサービス機能
 
 コンビニなどにあるプリントサービスを使うと、画像ファイルを写真用紙に印刷することができます。
 でも、これらのサービスでは写真用紙いっぱいに余白なしで印刷するために
@@ -229,7 +229,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 *この設定で、自動車運転免許用写真 (30 x 24mm) を 0.1mm 程度の誤差範囲内で印刷できることを確認しました (2014/06/30)。*
 
 
-## <a name="history">11. 変更履歴</a>
+## <a name="history"></a>11. 変更履歴
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
@@ -262,7 +262,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 </table>
 
 
-## <a name="for-developer">12. 開発者むけ情報</a>
+## <a name="for-developer"></a>12. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
 以下のコマンドでレポジトリを取得することができます。
