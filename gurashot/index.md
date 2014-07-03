@@ -218,19 +218,20 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 ![sample-adjust](images/sample-adjust-shrink.jpg)
 
-作者が近所のコンビニで上の画像を印刷し、その結果から得られた調整用ラインの数を以下にまとめます。
+作者が近所のプリントサービスで上の画像を印刷し、その結果から得られた調整用ラインの数を以下にまとめます。
 参考にしてください。
 
 <table>
-<tr><th>コンビニ名</th><th>機種名</th><th>調整用ラインの数</th></tr>
-<tr><td>サークル K サンクス</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 7, d = 10</td></tr>
-<tr><td>スリーエフ</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 8, d = 8</td></tr>
-<tr><td>セブンイレブン</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 7, c = 7, d = 6</td></tr>
-<tr><td>ファミリーマート</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td></tr>
-<tr><td>ローソン</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td></tr>
+<tr><th>プリントサービス</th><th>機種名</th><th>調整用ラインの数</th><th>確認日 (*)</th></tr>
+<tr><td>サークル K サンクス</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 7, d = 10</td><td>2014/06/30</td></tr>
+<tr><td>スリーエフ</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 8, d = 8</td><td>2014/06/30</td></tr>
+<tr><td>セブンイレブン</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 7, c = 7, d = 6</td><td>2014/06/30</td></tr>
+<tr><td>ファミリーマート</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
+<tr><td>ローソン</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
+<tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td></td></tr>
 </table>
 
-*この設定で、自動車運転免許用写真 (30 x 24mm) を 0.1mm 程度の誤差範囲内で印刷できることを確認しました (2014/06/30)。*
+(*) この設定で、自動車運転免許用写真 (30 x 24mm) を 0.1mm 程度の誤差範囲内で印刷できることを確認しました。
 
 
 ## <a name="history"></a>11. 変更履歴
