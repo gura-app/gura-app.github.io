@@ -1,0 +1,15 @@
+#!/usr/bin/env gura
+import(png)
+
+[
+	'color-adjust.png'
+	'image-list.png'
+	'main-blank.png'
+	'main-with-image.png'
+	'print-service.png'
+	'layout-frame-editor.png'
+	'output-option.png'
+].each {|fileName|
+	fileNameOut = path.basename(fileName) + '-shrink.png'
+	(image(fileName).resize(.7):ratio).write(fileNameOut)
+}
