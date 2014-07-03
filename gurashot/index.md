@@ -94,8 +94,8 @@ Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を�
 
 メインメニューから `[画像(I)]-[傾き調整(T)]` を実行するか、ツールバーの
 ![tilt_adj](images/tilt_adj.png) ボタンをクリックすると、
-ななめ画像補正用のカーソルに切り替わります。
-白丸を動かして顔の中心と頭の上、あごの先をあわせてください。
+斜め画像補正用のカーソルに切り替わります。
+二つの白丸を動かして顔の中心と頭の上、あごの先をあわせてください。
 
 ![image-tilt-adjust](images/image-tilt-adjust.png)
 
