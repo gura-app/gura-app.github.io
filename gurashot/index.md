@@ -3,7 +3,7 @@ layout: page
 lang: ja
 title: おうちで証明写真 Gura Shot
 ---
-{% assign app_version = '1.1.0' %}
+{% assign app_version = '1.2.0' %}
 
 # {{ page.title }}
 
@@ -223,6 +223,7 @@ Gura Shot の「プリントサービス機能」は、出力画像の周辺に�
 <tr><td>セブンイレブン</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 7, c = 7, d = 6</td><td>2014/06/30</td></tr>
 <tr><td>ファミリーマート</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
 <tr><td>ローソン</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
+<tr><td>FOTOLUSIO PrintRush</td><td>DNP</td><td>a = 13, b = 14, c = 12, d = 13</td><td></td></tr>
 <tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td></td></tr>
 </table>
 
@@ -262,6 +263,13 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
+
+<tr><td>v1.2.0</td><td>2014/07/09</td><td>
+Linux サポート<br />
+EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
+画像一覧で画像を削除した後、[閉じる] をクリックすると削除が反映されないバグを修正<br />
+複数画像を一度に開けるようにした<br />
+</td></tr>
 
 <tr><td>v1.1.0</td><td>2014/07/03</td><td>
 出力設定ダイアログを実装<br />
