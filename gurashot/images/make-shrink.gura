@@ -10,6 +10,7 @@ import(png)
 	'layout-frame-editor.png'
 	'output-option.png'
 ].each {|fileName|
+	println(fileName)
 	fileNameOut = path.basename(fileName) + '-shrink.png'
 	(image(fileName).resize(.7):ratio).write(fileNameOut)
 }
