@@ -223,8 +223,8 @@ Gura Shot の「プリントサービス機能」は、出力画像の周辺に�
 <tr><td>セブンイレブン</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 7, c = 7, d = 6</td><td>2014/06/30</td></tr>
 <tr><td>ファミリーマート</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
 <tr><td>ローソン</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
-<tr><td>FOTOLUSIO PrintRush</td><td>DNP (型番不明)</td><td>a = 13, b = 14, c = 12, d = 13</td><td></td></tr>
-<tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td></td></tr>
+<tr><td>FOTOLUSIO PrintRush</td><td>DNP (型番不明)</td><td>a = 13, b = 14, c = 12, d = 13</td><td>2014/07/11</td></tr>
+<tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td>2014/07/11</td></tr>
 </table>
 
 (*) この設定で、自動車運転免許用写真 (30 x 24mm) を 0.1mm 程度の誤差範囲内で印刷できることを確認しました。
