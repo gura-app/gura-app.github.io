@@ -6,6 +6,7 @@ import(png)
 	'image-list.png'
 	'main-blank.png'
 	'main-with-image.png'
+	'main-with-image-linux.png'
 	'print-service.png'
 	'layout-frame-editor.png'
 	'output-option.png'
@@ -14,3 +15,5 @@ import(png)
 	fileNameOut = path.basename(fileName) + '-shrink.png'
 	(image(fileName).resize(.7):ratio).write(fileNameOut)
 }
+image('main-with-image.png').resize(200).write('main-with-image-snapshot.png')
+image('main-with-image-linux.png').resize(200).write('main-with-image-linux-snapshot.png')

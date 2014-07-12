@@ -20,33 +20,62 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * 画像と編集内容の履歴を保持しているので、必要なときにさっと呼び出して使えます。
 * 結果を PDF で出力するので、正確な寸法で印刷できます。
 * コンビニなどのプリントサービスを使って、できるだけ正確な寸法で印刷できる機能を持っています。
+* Windows と Linux に対応しています。
 
+  ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
+  ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
 
 ## <a name="environment"></a>2. 動作環境
 
-Windows が動作している PC を用意してください。以下のバージョンで動作確認を行いました。
+### <a name="environment"></a>2.1. Windows
+
+以下のバージョンの Windows で動作することを確認しました。
 
 * Windows 7
 * Windows 8.1
 
-それ以前の Windows バージョン、Windows XP、Vista でもおそらく大丈夫だと思います。
+それ以前のバージョン、Windows XP、Vista でもおそらく大丈夫だと思います。
 
 このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
 の環境が必要です (無償)。[ダウンロードページ](http://www.gura-lang.org/Download.html) から
 Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) をダウンロードし、
-インストールしてください。バージョン `0.5.1` 以降に対応しています。
+インストールしてください。
+バージョン `0.5.1` 以降に対応しています。
 
-また、Adobe Reader など PDF を閲覧できるソフトをインストールしておいてください。
+また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
+
+
+### <a name="environment"></a>2.2. Linux
+
+以下のディストリビューションで動作することを確認しました。
+
+* Ubuntu 13.10
+* Ubuntu 14.04
+* Xubuntu 14.04
+* Lubuntu 14.04
+
+このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
+の環境が必要です (無償)。[ダウンロードページ](http://www.gura-lang.org/Download.html) の
+手順に従って、Gura 本体とモジュールをインストールしてください。
+バージョン `0.5.2` 以降に対応しています。
+
+また、evince や Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
 
 ## <a name="install"></a>3. インストール
 
 パッケージファイル [gurashot-{{ app_version }}.zip](https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip)
 をダウンロードして適当なフォルダに展開します。
+パッケージファイルは Windows と Linux の両方に対応しています。
 
-エキスプローラなどでスクリプトファイル `gurashot.guraw` をダブルクリックするとプログラムが起動します。
+スクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
 
-デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を起動してください。
+* Windows の場合は、エキスプローラなどでファイルをダブルクリックしてください。
+* Linux の場合はコマンドラインから以下のように実行してください。
+
+        $ gura gurashot.guraw
+
+デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を実行してください。
 `[セットアップ]` ボタンをクリックするとセットアップを行います。
 セットアップをした後は、パッケージから展開したファイルを削除してもかまいません。
 
