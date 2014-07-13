@@ -7,6 +7,8 @@ title: おうちで証明写真 Gura Shot
 
 # {{ page.title }}
 
+**ダウンロード:** [gurashot-{{ app_version }}.zip](https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip)
+
 ## <a name="intro"></a>1. アプリケーションの紹介
 
 免許証の申請やら履歴書やらで、証明写真がほしいときは意外と多いもの。
@@ -15,7 +17,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 * 自動車運転免許やパスポートの申請に必要なサイズの写真をつくれます。
 * 顔の中心や上下の余白を適切に設定します。パスポート用の写真は
-  [外務省](http://www.mofa.go.jp/mofaj/index.html) の規格に合うよう調整します。
+  [外務省の規格](http://www.mofa.go.jp/mofaj/toko/passport/ic_photo.html) に合うよう調整します。
 * 斜めにかたむいた画像を補正する機能がついています。
 * 画像と編集内容の履歴を保持しているので、必要なときにさっと呼び出して使えます。
 * 結果を PDF で出力するので、正確な寸法で印刷できます。
@@ -59,7 +61,8 @@ Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を�
 手順に従って、Gura 本体とモジュールをインストールしてください。
 バージョン `0.5.2` 以降に対応しています。
 
-また、evince や Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
+PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルトで evince が入っています。
+お好みで Adobe Reader などのソフトをインストールしておいてください。
 
 
 ## <a name="install"></a>3. インストール
@@ -278,7 +281,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 ![sample-adjust](images/sample-adjust-shrink.jpg) [原寸イメージ](images/sample-adjust.jpg)
 
 
-## <a name="history"></a>11. ユーザ定義割り付けフレーム
+## <a name="user-defined-frame"></a>11. ユーザ定義割り付けフレーム
 
 割り付けフレーム一覧中の「ユーザ定義 1」から「ユーザ定義 5」には
 ユーザが独自にフレームサイズを設定することができます。
