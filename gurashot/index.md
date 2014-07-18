@@ -353,4 +353,4 @@ EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
 
 このアプリケーションは GitHub レポジトリで管理されています。
 
-URL: https://github.com/gura-app/gurashot.git
+URL: [](https://github.com/gura-app/gurashot.git)
