@@ -11,7 +11,7 @@ title: おうちで証明写真 Gura Shot
   onClick="_gaq.push(['_trackEvent','download','click','gurashot-{{ app_version }}.zip']);"><img src="../images/download.png" alt="download" /></a>
 
 [Gura プログラミング言語](http://www.gura-lang.org/) が必要です。
-[こちら](http://www.gura-lang.org/Download.html) からダウンロード (無償)。
+[こちら](http://www.gura-lang.org/Download.html) からダウンロードしてください (無償)。
 
 
 ## <a name="intro"></a>1. アプリケーションの紹介
