@@ -7,9 +7,12 @@ title: おうちで証明写真 Gura Shot
 
 # {{ page.title }}
 
-**ダウンロード:**
 <a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip" class="link"
-  onClick="_gaq.push(['_trackEvent','download','click','gurashot-{{ app_version }}.zip']);">gurashot-{{ app_version }}.zip</a>
+  onClick="_gaq.push(['_trackEvent','download','click','gurashot-{{ app_version }}.zip']);"><img src="../images/download.png" alt="download" /></a>
+
+お使いの環境に [Gura プログラミング言語](http://www.gura-lang.org/) がインストールされていない場合は
+[こちら](http://www.gura-lang.org/Download.html) からダウンロード (無償)。
+
 
 ## <a name="intro"></a>1. アプリケーションの紹介
 
@@ -69,10 +72,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 
 ## <a name="install"></a>3. インストール
 
-パッケージファイル
-<a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip" class="link"
-  onClick="_gaq.push(['_trackEvent','download','click','gurashot-{{ app_version }}.zip']);">gurashot-{{ app_version }}.zip</a>
-をダウンロードして適当なフォルダに展開します。
+パッケージファイルをダウンロードして適当なフォルダに展開します。
 パッケージファイルは Windows と Linux の両方に対応しています。
 
 スクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
