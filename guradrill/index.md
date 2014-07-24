@@ -26,7 +26,9 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## インストール
 
-パッケージファイル [guradrill-{{ app_version }}.zip](https://github.com/gura-app/guradrill/releases/download/v{{ app_version }}/guradrill-{{ app_version }}.zip)
+パッケージファイル
+<a href="https://github.com/gura-app/guradrill/releases/download/v{{ app_version }}/guradrill-{{ app_version }}.zip" class="link"
+  onClick="_gaq.push(['_trackEvent','download','click','guradrill-{{ app_version }}.zip']);">guradrill-{{ app_version }}.zip</a>
 をダウンロードして適当なフォルダに展開します。
 
 エキスプローラなどでスクリプトファイル `guradrill.guraw` をダブルクリックするとプログラムが起動します。
