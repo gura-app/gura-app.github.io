@@ -7,8 +7,8 @@ title: おうちで証明写真 Gura Shot
 
 # {{ page.title }}
 
-<a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip" class="link"
-  onClick="ga('send', 'event', 'button', 'click', 'gurashot-{{ app_version }}.zip');"><img src="../images/download.png" alt="download" /></a>
+<a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip"
+  onClick="ga('send', 'event', 'download', 'click', 'gurashot-{{ app_version }}.zip');"><img src="../images/download.png" alt="download" /></a>
 
 このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/) が必要です。
 [こちら](http://www.gura-lang.org/Download.html) からダウンロードしてください (無償)。
