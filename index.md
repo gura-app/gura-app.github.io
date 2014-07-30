@@ -7,6 +7,7 @@ title: Top
 ## おしらせ
 
 <table>
+<tr><td>2014-07-30</td><td>Gura Shot が<a href="http://www.forest.impress.co.jp/docs/review/20140730_659980.html">窓の杜レビュー記事</a>で紹介されました。ありがとうございます。</td></tr>
 <tr><td>2014-07-11</td><td>Gura Shot 1.2.1 をリリースしました。</td></tr>
 <tr><td>2014-07-09</td><td>Gura Shot 1.2.0 をリリースしました。</td></tr>
 <tr><td>2014-07-03</td><td>Gura Shot 1.1.0 をリリースしました。</td></tr>
