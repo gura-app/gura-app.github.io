@@ -2,6 +2,7 @@
 layout: default
 lang: en
 title: Top
+description: Gura プログラミング言語を使ったフリーソフトを公開するサイト
 ---
 
 ## おしらせ
