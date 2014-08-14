@@ -6,20 +6,32 @@ description: デジカメの画像から必要なサイズの証明写真をカ�
 ---
 {% assign app_version = '1.3.0' %}
 
-# {{ page.title }}
+<div id="gura-notice">
+このアプリケーションを実行するには <a href="http://www.gura-lang.org/">Gura プログラミング言語</a> が必要です (無償)
+<span style="margin-left:.5em"><img src="../images/b-download.png"> <a href="http://www.gura-lang.org/Download.html">ダウンロード</a></span>
+</div>
 
+<div style="border-bottom:8px solid #eeee00; margin-bottom:2em">
+<img src="images/gurashot-ico.png" style="vertical-align:middle" />
+<span style="font-size:28px; vertical-align:middle; margin-left:.2em">{{ page.title }}</span>
+<span style="margin-left:1em; vertical-align:bottom">
+<img src="../images/b-download.png">
 <a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', 'gurashot-{{ app_version }}.zip');"><img src="../images/download.png" alt="download" /></a>
-
-このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/) が必要です。
-[こちら](http://www.gura-lang.org/Download.html) からダウンロードしてください (無償)。
-
-
-## <a name="intro"></a>1. アプリケーションの紹介
+  onClick="ga('send', 'event', 'download', 'click', 'gurashot-{{ app_version }}.zip');">ダウンロード</a>
+</span>
+<!--
+<span style="margin-left:.5em">
+<img src="../images/page_white_go.png">
+<a href="user-manual.html">ユーザーマニュアル</a>
+</span>
+-->
+</div>
 
 免許証の申請やら履歴書やらで、証明写真がほしいときは意外と多いもの。
 Gura Shot は、デジカメの画像から必要なサイズの証明写真をカンタンに作れる
 アプリケーションです。
+
+紹介サイト: [窓の杜](http://www.forest.impress.co.jp/docs/review/20140730_659980.html)
 
 * 自動車運転免許やパスポートの申請に必要なサイズの写真をつくれます。
 * 顔の中心や上下の余白を適切に設定します。パスポート用の写真は
@@ -33,9 +45,9 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
   ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
   ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
 
-## <a name="environment"></a>2. 動作環境
+## <a name="environment"></a>1. 動作環境
 
-### <a name="environment"></a>2.1. Windows
+### <a name="environment"></a>1.1. Windows
 
 以下のバージョンの Windows で動作することを確認しました。
 
@@ -53,7 +65,7 @@ Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を�
 また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
 
-### <a name="environment"></a>2.2. Linux
+### <a name="environment"></a>1.2. Linux
 
 以下のディストリビューションで動作することを確認しました。
 
@@ -71,7 +83,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 お好みで Adobe Reader などのソフトをインストールしておいてください。
 
 
-## <a name="install"></a>3. インストール
+## <a name="install"></a>2. インストール
 
 パッケージファイルをダウンロードして適当なフォルダに展開します。
 パッケージファイルは Windows と Linux の両方に対応しています。
@@ -90,7 +102,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 セットアップの詳細については [Gura アプリケーションセットアップ](../setup/) をご覧ください。
 
 
-## <a name="basic-operation"></a>4. 基本的な使い方
+## <a name="basic-operation"></a>3. 基本的な使い方
 
 1. アプリケーションを起動すると以下のメインウィンドウが表示されます。
 
@@ -138,7 +150,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
      **四辺フチなし**: チェックをはずす  
 
 
-## <a name="tilt-adjust"></a>5. 斜め補正機能
+## <a name="tilt-adjust"></a>4. 斜め補正機能
 
 メインメニューから `[画像(I)]-[傾き調整(T)]` を実行するか、ツールバーの
 ![tilt_adj](images/tilt_adj.png) ボタンをクリックすると、
@@ -148,7 +160,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 ![image-tilt-adjust](images/image-tilt-adjust.png)
 
 
-## <a name="image-list"></a>6. 画像一覧
+## <a name="image-list"></a>5. 画像一覧
 
 一度とりこんだ画像は、画像一覧に記録されます。
 
@@ -175,7 +187,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
   画像一覧中の次の画像を呼び出します。
 * 左カーソルキーで前の画像、右カーソルキーで次の画像を呼び出します。
 
-## <a name="image-label"></a>7. 画像ラベル
+## <a name="image-label"></a>6. 画像ラベル
 
 開いた画像には画像ラベルがつけられています。
 画像ラベルは「顔抽出ウィンドウ」の下や画像一覧に表示され、出力結果のタイトル中にも印刷されます。
@@ -190,7 +202,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 
 分かりやすい画像ラベルをつけておくと、後々必要な画像を呼び出す際に便利です。
 
-## <a name="color-adjust"></a>8. 色彩調整
+## <a name="color-adjust"></a>7. 色彩調整
 
 開いた画像ごとに色彩の調整をすることができます。
 
@@ -209,7 +221,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 「セピア調」を選択すると、`[調整]` ボタンをクリックすることでセピア色として定義する色を編集することができます。
 
 
-## <a name="output"></a>9. 定型フォーマット機能
+## <a name="output"></a>8. 定型フォーマット機能
 
 「定型フォーマット一覧」タブを選択すると、
 写真のサイズや位置をレイアウトした定型フォーマットを使って結果を出力します。
@@ -223,7 +235,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 ![passport-and-drivers-license](images/passport-and-drivers-license.png)
 
 
-## <a name="output"></a>10. 出力機能
+## <a name="output"></a>9. 出力機能
 
 メインメニューから `[出力(O)]-[PDF出力(O)...]` を実行すると
 指定したファイル名で PDF ファイルを出力します。
@@ -251,7 +263,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 * **タイトル出力**: 印刷結果の左下に描画するタイトル内容を指定します。
 * **PDF ビューア**: (Linux のみ) PDF ビューアの実行ファイル名を指定します。
 
-## <a name="print-service"></a>11. プリントサービス機能
+## <a name="print-service"></a>10. プリントサービス機能
 
 コンビニなどにあるプリントサービスを使うと、プリンタを持っていなくても
 画像ファイルを写真用紙に印刷することができます。
@@ -303,7 +315,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 ![sample-adjust](images/sample-adjust-shrink.jpg) [原寸イメージ](images/sample-adjust.jpg)
 
 
-## <a name="user-defined-frame"></a>12. ユーザ定義割り付けフレーム
+## <a name="user-defined-frame"></a>11. ユーザ定義割り付けフレーム
 
 割り付けフレーム一覧中の「ユーザ定義 1」から「ユーザ定義 5」には
 ユーザが独自にフレームサイズを設定することができます。
@@ -318,7 +330,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 左のラジオボタンによって、比率による設定と長さによる設定のどちらかを選択できます。
 
 
-## <a name="history"></a>13. 変更履歴
+## <a name="history"></a>12. 変更履歴
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>

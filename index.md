@@ -21,15 +21,18 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 ## フリーソフト一覧
 
 <table>
-<tr><td><a href="gurashot/">おうちで証明写真 Gura Shot</a></td>
+<tr>
+<td><img src="gurashot/images/gurashot-ico.png" /></td>
 <td>
-免許証の申請やら履歴書やらで、証明写真がほしいときは意外と多いもの。
-Gura Shot は、デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーションです。
+<div><a href="gurashot">おうちで証明写真 Gura Shot</a></div>
+デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 </td>
 </tr>
-<tr><td><a href="getterphoto/">デジカメ写真取り込みアプリ Getter Photo</a></td>
+<tr>
+<td><img src="getterphoto/images/getterphoto-ico.png" /></td>
 <td>
-デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーションです。
+<div><a href="getterphoto">デジカメ写真取り込みアプリ Getter Photo</a></div>
+デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーション
 </td>
 </table>
 
