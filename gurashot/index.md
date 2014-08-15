@@ -26,6 +26,8 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
   ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
   ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 ## <a name="environment"></a>1. 動作環境
 
 ### <a name="environment"></a>1.1. Windows
