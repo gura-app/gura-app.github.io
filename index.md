@@ -1,6 +1,6 @@
 ---
-layout: default
-lang: en
+layout: page_top
+lang: ja
 title: Top
 description: Gura プログラミング言語を使ったフリーソフトを公開するサイト
 ---
@@ -25,14 +25,14 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 <td><img src="gurashot/images/gurashot-ico.png" /></td>
 <td>
 <div><a href="gurashot">おうちで証明写真 Gura Shot</a></div>
-デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
+デジカメの画像から必要なサイズの証明写真をカンタンに作れる
 </td>
 </tr>
 <tr>
 <td><img src="getterphoto/images/getterphoto-ico.png" /></td>
 <td>
 <div><a href="getterphoto">デジカメ写真取り込みアプリ Getter Photo</a></div>
-デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーション
+デジカメで撮影した画像ファイルをパソコンに取り込む
 </td>
 </table>
 

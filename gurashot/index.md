@@ -1,31 +1,12 @@
 ---
-layout: page
+layout: page_app
 lang: ja
 title: おうちで証明写真 Gura Shot
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
+app_package: gurashot
+app_version: 1.3.0
+app_iconimage: images/gurashot-ico.png
 ---
-{% assign app_version = '1.3.0' %}
-
-<div id="gura-notice">
-このアプリケーションを実行するには <a href="http://www.gura-lang.org/">Gura プログラミング言語</a> が必要です (無償)
-<span style="margin-left:.5em"><img src="../images/b-download.png"> <a href="http://www.gura-lang.org/Download.html">ダウンロード</a></span>
-</div>
-
-<div style="border-bottom:8px solid #eeee00; margin-bottom:2em">
-<img src="images/gurashot-ico.png" style="vertical-align:middle" />
-<span style="font-size:28px; vertical-align:middle; margin-left:.2em">{{ page.title }}</span>
-<span style="margin-left:1em; vertical-align:bottom">
-<img src="../images/b-download.png">
-<a href="https://github.com/gura-app/gurashot/releases/download/v{{ app_version }}/gurashot-{{ app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', 'gurashot-{{ app_version }}.zip');">ダウンロード</a>
-</span>
-<!--
-<span style="margin-left:.5em">
-<img src="../images/page_white_go.png">
-<a href="user-manual.html">ユーザーマニュアル</a>
-</span>
--->
-</div>
 
 免許証の申請やら履歴書やらで、証明写真がほしいときは意外と多いもの。
 Gura Shot は、デジカメの画像から必要なサイズの証明写真をカンタンに作れる
@@ -99,7 +80,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 `[セットアップ]` ボタンをクリックするとセットアップを行います。
 セットアップをした後は、パッケージから展開したファイルを削除してもかまいません。
 
-セットアップの詳細については [Gura アプリケーションセットアップ](../setup/) をご覧ください。
+セットアップの詳細については [Gura アプリケーションセットアップ]({{ topdir }}/setup/) をご覧ください。
 
 
 ## <a name="basic-operation"></a>3. 基本的な使い方

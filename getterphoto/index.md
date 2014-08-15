@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: page_app
 lang: ja
 title: デジカメ写真取り込みアプリ Getter Photo
+description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
+app_package: getterphoto
+app_version: 1.0.0
+app_iconimage: images/getterphoto-ico.png
 ---
-{% assign app_version = '1.0.0' %}
-
-# {{ page.title }}
-
-## アプリケーションの紹介
 
 Getter Photo は、デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーションです。
 
@@ -15,7 +14,7 @@ Getter Photo は、デジカメで撮影した画像ファイルをパソコン�
 * 画像ファイルを撮影日時をもとにしたファイル名にしてコピーします。
 
 
-## 動作環境
+## 1. 動作環境
 
 Windows が動作している PC を用意してください。Windows 7 で動作確認しています。それ以前のバージョン Windows XP、Vista でも大丈夫だと思いますが、Windows 8 は未確認です。
 
@@ -24,10 +23,9 @@ Windows が動作している PC を用意してください。Windows 7 で動�
 Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インストールしてください。
 
 
-## インストール
+## 2. インストール
 
-パッケージファイル [getterphoto-{{ app_version }}.zip](https://github.com/gura-app/getterphoto/releases/download/v{{ app_version }}/getterphoto-{{ app_version }}.zip)
-をダウンロードして適当なフォルダに展開します。
+パッケージファイルをダウンロードして適当なフォルダに展開します。
 
 エキスプローラなどでスクリプトファイル `getterphoto.guraw` をダブルクリックするとプログラムが起動します。
 
@@ -36,7 +34,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 セットアップの詳細については [Gura アプリケーションセットアップ](../setup/) をご覧ください。
 
 
-## 写真取り込み
+## 3. 写真取り込み
 
 SD カードなどのメディアを PC に接続してアプリケーションを起動すると以下の画面になります。
 
@@ -50,9 +48,8 @@ SD カードなどのメディアを PC に接続してアプリケーション�
 コピー元のディレクトリ一覧を更新してください。
 
 
-## 開発者むけ情報
+## 4. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
-以下のコマンドでレポジトリを取得することができます。
 
-    git clone https://github.com/gura-app/getterphoto.git
+URL: [https://github.com/gura-app/getterphoto.git](https://github.com/gura-app/getterphoto.git)

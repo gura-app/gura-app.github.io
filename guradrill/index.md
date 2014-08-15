@@ -1,18 +1,17 @@
 ---
-layout: page
+layout: page_app
 lang: ja
 title: 計算問題作成アプリ Gura ドリル
+description: 算数の計算問題を作成するアプリケーション
+app_package: guradrill
+app_version: 1.0.0
+app_iconimage: images/guradrill-ico.png
 ---
-{% assign app_version = '1.0.0' %}
-
-# {{ page.title }}
-
-## アプリケーションの紹介
 
 Gura ドリルは、算数の計算問題を作成するアプリケーションです。
 
 * 足し算・引き算・かけ算・割り算の問題を作成します。
-* けた数などを難易の異なる問題を作成できます。
+* けた数など難易の異なる問題を作成できます。
 
 
 ## 動作環境
@@ -26,10 +25,7 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 
 ## インストール
 
-パッケージファイル
-<a href="https://github.com/gura-app/guradrill/releases/download/v{{ app_version }}/guradrill-{{ app_version }}.zip" class="link"
-  onClick="_gaq.push(['_trackEvent','download','click','guradrill-{{ app_version }}.zip']);">guradrill-{{ app_version }}.zip</a>
-をダウンロードして適当なフォルダに展開します。
+パッケージファイルをダウンロードして適当なフォルダに展開します。
 
 エキスプローラなどでスクリプトファイル `guradrill.guraw` をダブルクリックするとプログラムが起動します。
 
@@ -57,6 +53,5 @@ Windows Installer (`gura-x.x.x-win32.msi`) をダウンロードし、インス�
 ## 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
-以下のコマンドでレポジトリを取得することができます。
 
-    git clone https://github.com/gura-app/guradrill.git
+URL: [https://github.com/gura-app/guradrill.git](https://github.com/gura-app/guradrill.git)
