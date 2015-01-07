@@ -8,11 +8,6 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 ## おしらせ
 
 <table>
-<tr><td valign="top" style="white-space:nowrap">2014-11-20</td><td>
-Gura 0.6.0 を使用すると Gura Shot で PDF を正常に出力できません。<br />
-Gura 0.5.2 を使用してください。
-</td></tr>
-
 <tr><td valign="top" style="white-space:nowrap">2014-08-04</td><td>
 Gura Shot 1.3.0 をリリースしました。
 </td></tr>
