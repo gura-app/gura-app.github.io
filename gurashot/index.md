@@ -45,6 +45,7 @@ Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を�
 インストールしてください。
 バージョン `0.5.1` 以降に対応しています。
 
+<!--
 <div id="gura-caution">
 <p>[2014 年 11 月 20 日]</p>
 <p>Gura バージョン <code>0.6.0</code> では PDF ファイルを正常に出力できません。
@@ -58,6 +59,7 @@ Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を�
 <li>「Gura Programming Language」を選択し、アンインストールします。</li>
 </ol>
 </div>
+-->
 
 また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
