@@ -28,80 +28,28 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## <a name="environment"></a>1. 動作環境
+## <a name="install"></a>1. インストール
 
-### <a name="environment"></a>1.1. Windows
+1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
+   の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) ページから
+   Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) をダウンロードし、
+   インストールしてください。バージョン `0.5.1` 以降に対応しています。
 
-以下のバージョンの Windows で動作することを確認しました。
+   また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
-* Windows 7
-* Windows 8.1
+2. <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
+  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">パッケージファイル</a>をダウンロードして適当なフォルダに展開します。
 
-それ以前のバージョン、Windows XP、Vista でもおそらく大丈夫だと思います。
+3. エキスプローラでスクリプトファイル `gurashot.guraw` をダブルクリックするとアプリケーションが起動します。
 
-このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
-の環境が必要です (無償)。[ダウンロードページ](http://www.gura-lang.org/Download.html) から
-Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) をダウンロードし、
-インストールしてください。
-バージョン `0.5.1` 以降に対応しています。
+4. デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を実行してください。
+   `[セットアップ]` ボタンをクリックするとセットアップを行います。
+   セットアップをした後は、パッケージから展開したファイルを削除してもかまいません。
 
-<!--
-<div id="gura-caution">
-<p>[2014 年 11 月 20 日]</p>
-<p>Gura バージョン <code>0.6.0</code> では PDF ファイルを正常に出力できません。
-バージョン <code>0.5.2</code> を使用してください。</p>
-<p>すでに <code>0.6.0</code> をインストールされた方は、
-以下の手順でアンインストールしてから <code>0.5.2</code> をインストールしてください。</p>
+   セットアップの詳細については [Gura アプリケーションセットアップ]({{ topdir }}/setup/) をご覧ください。
 
 
-<ol>
-<li>コントロールパネルを開き、「プログラムのアンインストール」を選択します。</li>
-<li>「Gura Programming Language」を選択し、アンインストールします。</li>
-</ol>
-</div>
--->
-
-また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
-
-
-### <a name="environment"></a>1.2. Linux
-
-以下のディストリビューションで動作することを確認しました。
-
-* Ubuntu 13.10
-* Ubuntu 14.04
-* Xubuntu 14.04
-* Lubuntu 14.04
-
-このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
-の環境が必要です (無償)。[ダウンロードページ](http://www.gura-lang.org/Download.html) の
-手順に従って、Gura 本体とモジュールをインストールしてください。
-バージョン `0.5.2` 以降に対応しています。
-
-PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルトで evince が入っています。
-お好みで Adobe Reader などのソフトをインストールしておいてください。
-
-
-## <a name="install"></a>2. インストール
-
-パッケージファイルをダウンロードして適当なフォルダに展開します。
-パッケージファイルは Windows と Linux の両方に対応しています。
-
-スクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
-
-* Windows の場合は、エキスプローラなどでファイルをダブルクリックしてください。
-* Linux の場合はコマンドラインから以下のように実行してください。
-
-        $ gura gurashot.guraw
-
-デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を実行してください。
-`[セットアップ]` ボタンをクリックするとセットアップを行います。
-セットアップをした後は、パッケージから展開したファイルを削除してもかまいません。
-
-セットアップの詳細については [Gura アプリケーションセットアップ]({{ topdir }}/setup/) をご覧ください。
-
-
-## <a name="basic-operation"></a>3. 基本的な使い方
+## <a name="basic-operation"></a>2. 基本的な使い方
 
 1. アプリケーションを起動すると以下のメインウィンドウが表示されます。
 
@@ -149,7 +97,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
      **四辺フチなし**: チェックをはずす  
 
 
-## <a name="tilt-adjust"></a>4. 斜め補正機能
+## <a name="tilt-adjust"></a>3. 斜め補正機能
 
 メインメニューから `[画像(I)]-[傾き調整(T)]` を実行するか、ツールバーの
 ![tilt_adj](images/tilt_adj.png) ボタンをクリックすると、
@@ -159,7 +107,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 ![image-tilt-adjust](images/image-tilt-adjust.png)
 
 
-## <a name="image-list"></a>5. 画像一覧
+## <a name="image-list"></a>4. 画像一覧
 
 一度とりこんだ画像は、画像一覧に記録されます。
 
@@ -186,7 +134,8 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
   画像一覧中の次の画像を呼び出します。
 * 左カーソルキーで前の画像、右カーソルキーで次の画像を呼び出します。
 
-## <a name="image-label"></a>6. 画像ラベル
+
+## <a name="image-label"></a>5. 画像ラベル
 
 開いた画像には画像ラベルがつけられています。
 画像ラベルは「顔抽出ウィンドウ」の下や画像一覧に表示され、出力結果のタイトル中にも印刷されます。
@@ -201,7 +150,8 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 
 分かりやすい画像ラベルをつけておくと、後々必要な画像を呼び出す際に便利です。
 
-## <a name="color-adjust"></a>7. 色彩調整
+
+## <a name="color-adjust"></a>6. 色彩調整
 
 開いた画像ごとに色彩の調整をすることができます。
 
@@ -220,7 +170,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 「セピア調」を選択すると、`[調整]` ボタンをクリックすることでセピア色として定義する色を編集することができます。
 
 
-## <a name="output"></a>8. 定型フォーマット機能
+## <a name="output"></a>7. 定型フォーマット機能
 
 「定型フォーマット一覧」タブを選択すると、
 写真のサイズや位置をレイアウトした定型フォーマットを使って結果を出力します。
@@ -234,7 +184,7 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 ![passport-and-drivers-license](images/passport-and-drivers-license.png)
 
 
-## <a name="output"></a>9. 出力機能
+## <a name="output"></a>8. 出力機能
 
 メインメニューから `[出力(O)]-[PDF出力(O)...]` を実行すると
 指定したファイル名で PDF ファイルを出力します。
@@ -255,14 +205,15 @@ PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルト
 
 設定内容は以下の通りです。
 
-* **用紙の向き**: デフォルトでは、写真をより多く収められる方向に用紙を設定しますが (自動)、
+* **用紙の向き** &hellip; デフォルトでは、写真をより多く収められる方向に用紙を設定しますが (自動)、
   常に縦方向または横方向に設定することができます。
-* **外周のマージン**: 割り付けフレームの外周に設けるマージン量です。
-* **トリムマーク**: 切り離し位置を表すトリムマークの線の色や、描画位置を設定します。
-* **タイトル出力**: 印刷結果の左下に描画するタイトル内容を指定します。
-* **PDF ビューア**: (Linux のみ) PDF ビューアの実行ファイル名を指定します。
+* **外周のマージン** &hellip; 割り付けフレームの外周に設けるマージン量です。
+* **トリムマーク** &hellip; 切り離し位置を表すトリムマークの線の色や、描画位置を設定します。
+* **タイトル出力** &hellip; 印刷結果の左下に描画するタイトル内容を指定します。
+* **PDF ビューア** &hellip; (Linux のみ) PDF ビューアの実行ファイル名を指定します。
 
-## <a name="print-service"></a>10. プリントサービス機能
+
+## <a name="print-service"></a>9. プリントサービス機能
 
 コンビニなどにあるプリントサービスを使うと、プリンタを持っていなくても
 画像ファイルを写真用紙に印刷することができます。
@@ -314,7 +265,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 ![sample-adjust](images/sample-adjust-shrink.jpg) [原寸イメージ](images/sample-adjust.jpg)
 
 
-## <a name="user-defined-frame"></a>11. ユーザ定義割り付けフレーム
+## <a name="user-defined-frame"></a>10. ユーザ定義割り付けフレーム
 
 割り付けフレーム一覧中の「ユーザ定義 1」から「ユーザ定義 5」には
 ユーザが独自にフレームサイズを設定することができます。
@@ -329,7 +280,30 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 左のラジオボタンによって、比率による設定と長さによる設定のどちらかを選択できます。
 
 
-## <a name="history"></a>12. 変更履歴
+## <a name="install-linux"></a>11. Linux へのインストール
+
+1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
+   の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) の
+   手順に従って、Gura 本体とモジュールをインストールしてください。バージョン `0.5.2` 以降に対応しています。
+
+   また、PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルトで evince が入っていますが、
+   お好みで Adobe Reader などのソフトをインストールしておいてください。
+
+2. <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
+  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">パッケージファイル</a>をダウンロードして適当なフォルダに展開します。
+
+3. コマンドラインから以下のようにスクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
+
+        $ gura gurashot.guraw
+
+
+## <a name="install-linux"></a>12. 動作確認環境
+
+* **Windows** &hellip; Windows 7, Windows 8.1
+* **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
+
+
+## <a name="history"></a>13. 変更履歴
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
@@ -383,7 +357,7 @@ EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
 </table>
 
 
-## <a name="for-developer"></a>13. 開発者むけ情報
+## <a name="for-developer"></a>14. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
 
