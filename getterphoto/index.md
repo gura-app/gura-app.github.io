@@ -4,7 +4,7 @@ lang: ja
 title: デジカメ写真取り込みアプリ Getter Photo
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 app_package: getterphoto
-app_version: 1.0.0
+app_version: 1.0.1
 app_iconimage: images/getterphoto-ico.png
 ---
 
