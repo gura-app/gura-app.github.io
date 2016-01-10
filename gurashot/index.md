@@ -14,6 +14,9 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 紹介サイト: [窓の杜](http://www.forest.impress.co.jp/docs/review/20140730_659980.html)
 
+  ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
+  ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
+
 * パスポート・個人番号カード・自動車運転免許などの申請に必要なサイズの写真をつくれます。
 * 顔の中心や上下の余白を適切に設定します。パスポートや個人番号カード用の写真は
   [外務省の規格](http://www.mofa.go.jp/mofaj/toko/passport/ic_photo.html) に合うよう調整します。
@@ -23,10 +26,22 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * コンビニなどのプリントサービスを使って、できるだけ正確な寸法で印刷できる機能を持っています。
 * Windows と Linux に対応しています。
 
-  ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
-  ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. <a href="#install">インストール</a>
+2. <a href="#basic-operation">基本的な使い方</a>
+3. <a href="#tilt-adjust">斜め補正機能</a>
+4. <a href="#image-list">画像一覧</a>
+5. <a href="#image-label">画像ラベル</a>
+6. <a href="#color-adjust">色彩調整</a>
+7. <a href="#defined-format">定型フォーマット機能</a>
+8. <a href="#output">出力機能</a>
+9. <a href="#print-service">プリントサービス機能</a>
+10. <a href="#user-defined-frame">ユーザ定義割り付けフレーム</a>
+11. <a href="#install-linux">Linux へのインストール</a>
+12. <a href="#test-environment">動作確認環境</a>
+13. <a href="#history">変更履歴</a>
+14. <a href="#for-developers">開発者むけ情報</a>
 
 ## <a name="install"></a>1. インストール
 
@@ -170,7 +185,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 「セピア調」を選択すると、`[調整]` ボタンをクリックすることでセピア色として定義する色を編集することができます。
 
 
-## <a name="output"></a>7. 定型フォーマット機能
+## <a name="defined-format"></a>7. 定型フォーマット機能
 
 「定型フォーマット一覧」タブを選択すると、
 写真のサイズや位置をレイアウトした定型フォーマットを使って結果を出力します。
@@ -297,7 +312,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
         $ gura gurashot.guraw
 
 
-## <a name="install-linux"></a>12. 動作確認環境
+## <a name="test-environment"></a>12. 動作確認環境
 
 * **Windows** &hellip; Windows 7, Windows 8.1
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
@@ -357,7 +372,7 @@ EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
 </table>
 
 
-## <a name="for-developer"></a>14. 開発者むけ情報
+## <a name="for-developers"></a>14. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
 
