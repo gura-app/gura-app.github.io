@@ -191,21 +191,27 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 写真のサイズや位置をレイアウトした定型フォーマットを使って結果を出力します。
 定型フォーマットには以下のものが含まれます。
 
-* 異なるサイズの写真を一枚にまとめたフォーマット
+<table>
 
-  * 履歴書・自動車運転免許
-  * 履歴書・雇用保険受給申請
-  * パスポート・自動車運転免許
+<tr><td valign="top">履歴書・自動車運転免許</td>
+<td><img src="images/output-resume-and-license-shrink.jpg" /></td></tr>
 
-* 市販のプリンタラベル用紙にあわせたフォーマット
+<tr><td valign="top">履歴書・雇用保険受給申請</td>
+<td><img src="images/output-resume-and-assurance-shrink.jpg" /></td></tr>
 
-  * A-one プリンタラベル 29603/29613
-  * ヒサゴ 証明写真サイズシール CJ766S/CJ866NS
-  * ヒサゴ 切手型シール CJ883S
+<tr><td valign="top">パスポート・自動車運転免許</td>
+<td><img src="images/output-passport-and-license-shrink.jpg" /></td></tr>
 
-以下はパスポートと自動車運転免許用の写真を収めたフォーマットの出力例です。
+<tr><td valign="top">A-one プリンタラベル 29603/29613</td>
+<td><img src="images/output-a-one-shrink.jpg" /></td></tr>
 
-![passport-and-drivers-license](images/passport-and-drivers-license.png)
+<tr><td valign="top">ヒサゴ 証明写真サイズシール CJ766S/CJ866NS</td>
+<td><img src="images/output-hisago-id-shrink.jpg" /></td></tr>
+
+<tr><td valign="top">ヒサゴ 切手型シール CJ883S</td>
+<td><img src="images/output-hisago-stamp-shrink.jpg" /></td></tr>
+
+</table>
 
 
 ## <a name="output"></a>8. 出力機能
