@@ -10,6 +10,7 @@ import(png)
 	'print-service.png'
 	'layout-frame-editor.png'
 	'output-option.png'
+	'main-trimming.png'
 ].each {|fileName|
 	println(fileName)
 	fileNameOut = path.basename(fileName) + '-shrink.png'
