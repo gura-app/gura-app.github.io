@@ -18,30 +18,33 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
   ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
 
 * パスポート・個人番号カード・自動車運転免許などの申請に必要なサイズの写真をつくれます。
-* 顔の中心や上下の余白を適切に設定します。パスポートや個人番号カード用の写真は
+* 顔の中心と上下を指定すると、適切な余白をもたせた画像を生成します。パスポートや個人番号カード用の写真は
   [外務省の規格](http://www.mofa.go.jp/mofaj/toko/passport/ic_photo.html) に合うよう調整します。
-* 斜めにかたむいた画像を補正する機能 ([斜め補正機能](#tilt-adjust)) がついています。
-* 画像と編集内容の履歴を保持しているので ([画像一覧](#image-list))、必要なときにさっと呼び出して使えます。
+* [画像切り出し機能](#trimming)を使うと、ワープロ文書への貼付や電子申請などに使えるイメージファイルが作成できます。
+* 斜めにかたむいた画像を補正する[斜め補正機能](#tilt-adjust)がついています。
+* [画像一覧](#image-list)で今までに開いた画像ファイルをすぐに呼び出せます。
 * 結果を PDF で出力するので、正確な寸法で印刷できます。
-* コンビニなどのプリントサービスを使って、できるだけ正確な寸法で印刷できる機能 ([プリントサービス機能](#print-service)) を持っています 。
+* コンビニなどのプリントサービスを使い、正確な寸法で印刷できる
+  [プリントサービス機能](#print-service)を持っています 。
 * Windows と Linux に対応しています。
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. <a href="#install">インストール</a>
 2. <a href="#basic-operation">基本的な使い方</a>
-3. <a href="#tilt-adjust">斜め補正機能</a>
-4. <a href="#image-list">画像一覧</a>
-5. <a href="#image-label">画像ラベル</a>
-6. <a href="#color-adjust">色彩調整</a>
-7. <a href="#defined-format">定型フォーマット機能</a>
-8. <a href="#output">出力機能</a>
-9. <a href="#print-service">プリントサービス機能</a>
-10. <a href="#user-defined-frame">ユーザ定義割り付けフレーム</a>
-11. <a href="#install-linux">Linux へのインストール</a>
-12. <a href="#test-environment">動作確認環境</a>
-13. <a href="#history">変更履歴</a>
-14. <a href="#for-developers">開発者むけ情報</a>
+3. <a href="#trimming">画像切り出し機能</a>
+4. <a href="#tilt-adjust">斜め補正機能</a>
+5. <a href="#image-list">画像一覧</a>
+6. <a href="#image-label">画像ラベル</a>
+7. <a href="#color-adjust">色彩調整</a>
+8. <a href="#defined-format">定型フォーマット機能</a>
+9. <a href="#output">出力機能</a>
+10. <a href="#print-service">プリントサービス機能</a>
+11. <a href="#user-defined-frame">ユーザ定義割り付けフレーム</a>
+12. <a href="#install-linux">Linux へのインストール</a>
+13. <a href="#test-environment">動作確認環境</a>
+14. <a href="#history">変更履歴</a>
+15. <a href="#for-developers">開発者むけ情報</a>
 
 ## <a name="install"></a>1. インストール
 
@@ -112,7 +115,22 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
      **四辺フチなし** &hellip; チェックをはずす  
 
 
-## <a name="tilt-adjust"></a>3. 斜め補正機能
+## <a name="trimming"></a>3. 画像切り出し機能
+
+メインウィンドウ右上の「割り付けフレーム一覧」で「画像切り出し」を選択するとプレビューウィンドウが
+以下のように表示され、切り出した顔画像をイメージファイルとして出力することができます。
+
+![main-trimming](images/main-trimming-shrink.png)
+
+プレビューには、切り出した結果のピクセルサイズが表示されます。
+
+イメージをファイルに出力するには、メインメニューから `[出力(O)]-[切り出し画像をセーブ(S)...]` を実行します。
+
+イメージをクリップボードにコピーするには、メインメニューから `[出力(O)]-[切り出し画像をクリップボードにコピー(C)]`
+を実行します。
+
+
+## <a name="tilt-adjust"></a>4. 斜め補正機能
 
 メインメニューから `[画像(I)]-[傾き調整(T)]` を実行するか、ツールバーの
 ![tilt_adj](images/tilt_adj.png) ボタンをクリックすると、
@@ -122,7 +140,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 ![image-tilt-adjust](images/image-tilt-adjust.png)
 
 
-## <a name="image-list"></a>4. 画像一覧
+## <a name="image-list"></a>5. 画像一覧
 
 一度とりこんだ画像は、画像一覧に記録されます。
 
@@ -150,7 +168,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * 左カーソルキーで前の画像、右カーソルキーで次の画像を呼び出します。
 
 
-## <a name="image-label"></a>5. 画像ラベル
+## <a name="image-label"></a>6. 画像ラベル
 
 開いた画像には画像ラベルがつけられています。
 画像ラベルは「顔抽出ウィンドウ」の下や画像一覧に表示され、出力結果のタイトル中にも印刷されます。
@@ -166,7 +184,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 分かりやすい画像ラベルをつけておくと、後々必要な画像を呼び出す際に便利です。
 
 
-## <a name="color-adjust"></a>6. 色彩調整
+## <a name="color-adjust"></a>7. 色彩調整
 
 開いた画像ごとに色彩の調整をすることができます。
 
@@ -185,7 +203,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 「セピア調」を選択すると、`[調整]` ボタンをクリックすることでセピア色として定義する色を編集することができます。
 
 
-## <a name="defined-format"></a>7. 定型フォーマット機能
+## <a name="defined-format"></a>8. 定型フォーマット機能
 
 「定型フォーマット一覧」タブを選択すると、
 写真のサイズや位置をレイアウトした定型フォーマットを使って結果を出力します。
@@ -214,7 +232,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 </table>
 
 
-## <a name="output"></a>8. 出力機能
+## <a name="output"></a>9. 出力機能
 
 メインメニューから `[出力(O)]-[PDF出力(O)...]` を実行すると
 指定したファイル名で PDF ファイルを出力します。
@@ -243,7 +261,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * **PDF ビューア** &hellip; (Linux のみ) PDF ビューアの実行ファイル名を指定します。
 
 
-## <a name="print-service"></a>9. プリントサービス機能
+## <a name="print-service"></a>10. プリントサービス機能
 
 コンビニなどにあるプリントサービスを使うと、プリンタを持っていなくても
 画像ファイルを写真用紙に印刷することができます。
@@ -295,7 +313,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 ![sample-adjust](images/sample-adjust-shrink.jpg) [原寸イメージ](images/sample-adjust.jpg)
 
 
-## <a name="user-defined-frame"></a>10. ユーザ定義割り付けフレーム
+## <a name="user-defined-frame"></a>11. ユーザ定義割り付けフレーム
 
 割り付けフレーム一覧中の「ユーザ定義 1」から「ユーザ定義 5」には
 ユーザが独自にフレームサイズを設定することができます。
@@ -310,7 +328,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 左のラジオボタンによって、比率による設定と長さによる設定のどちらかを選択できます。
 
 
-## <a name="install-linux"></a>11. Linux へのインストール
+## <a name="install-linux"></a>12. Linux へのインストール
 
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) の
@@ -327,16 +345,20 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
         $ gura gurashot.guraw
 
 
-## <a name="test-environment"></a>12. 動作確認環境
+## <a name="test-environment"></a>13. 動作確認環境
 
 * **Windows** &hellip; Windows 7, Windows 8.1
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
 
 
-## <a name="history"></a>13. 変更履歴
+## <a name="history"></a>14. 変更履歴
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
+
+<tr><td>v1.4.0</td><td>2016/01/13</td><td>
+画像切り出し機能を追加
+</td></tr>
 
 <tr><td>v1.3.0</td><td>2014/08/04</td><td>
 定型フォーマット出力機能を追加
@@ -387,7 +409,7 @@ EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
 </table>
 
 
-## <a name="for-developers"></a>14. 開発者むけ情報
+## <a name="for-developers"></a>15. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
 
