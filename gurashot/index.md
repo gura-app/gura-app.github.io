@@ -4,7 +4,7 @@ lang: ja
 title: おうちで証明写真 Gura Shot
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 app_package: gurashot
-app_version: 1.3.0
+app_version: 1.4.0
 app_iconimage: images/gurashot-ico.png
 ---
 
