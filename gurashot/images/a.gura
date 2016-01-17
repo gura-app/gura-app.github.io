@@ -1,0 +1,36 @@
+#!/usr/bin/env gura
+import(png)
+import(show)
+import(cairo)
+
+fontName = if (sys.platform == `mswin) {
+	'Sans'
+} elsif (sys.platform == `linux) {
+	'Sans'
+} elsif (sys.platform == `darwin) {
+	'Hiragino Kaku Gothic Pro'
+}
+
+(image('main-with-image.png').resize(.7):ratio).expand(50, 50, 50, 50) {|img|
+	img.cairo {|cr|
+		cr.select_font_face(fontName, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+		cr.set_font_size(12)
+		cr.rectangle(55, 65, 170, 20)
+		cr.rectangle(285, 85, 150, 16)
+		cr.rectangle(55, 320, 550, 240)
+		cr.rectangle(55, 105, 220, 210)
+		cr.rectangle(280, 105, 325, 210)
+		cr.set_line_width(2)
+		cr.set_source_rgba(0, .4, .6, .4)
+		cr.stroke()
+		cr.rectangle(60, 330, 100, 30)
+		cr.set_source_rgba(0, .4, .6, .6)
+		cr.fill()
+		cr.move_to(65, 345)
+		cr.set_source_rgb(0, 0, 0)
+		cr.show_text('プレビューペイン')
+	}
+	img.show()
+}
+
+
