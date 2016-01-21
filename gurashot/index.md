@@ -16,6 +16,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
   ![main-with-image-snapshot](images/main-with-image-snapshot.png) Windows&nbsp;&nbsp;
   ![main-with-image-linux-snapshot](images/main-with-image-linux-snapshot.png) Linux
+  ![main-with-image-linux-snapshot](images/main-with-image-macos-snapshot.png) MacOS
 
 * パスポート・個人番号カード・自動車運転免許などの申請に必要なサイズの写真をつくれます。
 * 顔の中心と上下を指定すると、適切な余白をもたせた画像を生成します。パスポートや個人番号カード用の写真は
@@ -26,11 +27,11 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 * 結果を PDF で出力するので、正確な寸法で印刷できます。
 * コンビニなどのプリントサービスを使い、正確な寸法で印刷できる
   [プリントサービス機能](#print-service)を持っています 。
-* Windows と Linux に対応しています。
+* Windows、Linux および MacOS に対応しています。
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-1. <a href="#install">インストール</a>
+1. <a href="#install">インストール (Windows)</a>
 2. <a href="#basic-operation">基本的な使い方</a>
 3. <a href="#trimming">画像切り出し機能</a>
 4. <a href="#tilt-adjust">斜め補正機能</a>
@@ -41,12 +42,13 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 9. <a href="#output">出力機能</a>
 10. <a href="#print-service">プリントサービス機能</a>
 11. <a href="#user-defined-frame">ユーザ定義割り付けフレーム</a>
-12. <a href="#install-linux">Linux へのインストール</a>
-13. <a href="#test-environment">動作確認環境</a>
-14. <a href="#history">変更履歴</a>
-15. <a href="#for-developers">開発者むけ情報</a>
+12. <a href="#install-linux">インストール (Linux)</a>
+13. <a href="#install-macos">インストール (MacOS)</a>
+14. <a href="#test-environment">動作確認環境</a>
+15. <a href="#history">変更履歴</a>
+16. <a href="#for-developers">開発者むけ情報</a>
 
-## <a name="install"></a>1. インストール
+## <a name="install"></a>1. インストール (Windows)
 
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) ページから
@@ -55,8 +57,8 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
    また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
-2. <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">パッケージファイル</a>をダウンロードして適当なフォルダに展開します。
+2. パッケージファイル <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
+  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">{{ page.app_package }}-{{ page.app_version }}.zip</a> をダウンロードして適当なフォルダに展開します。
 
 3. エキスプローラでスクリプトファイル `gurashot.guraw` をダブルクリックするとアプリケーションが起動します。
 
@@ -322,7 +324,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 左のラジオボタンによって、比率による設定と長さによる設定のどちらかを選択できます。
 
 
-## <a name="install-linux"></a>12. Linux へのインストール
+## <a name="install-linux"></a>12. インストール (Linux)
 
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) の
@@ -331,21 +333,35 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
    また、PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルトで evince が入っていますが、
    お好みで Adobe Reader などのソフトをインストールしておいてください。
 
-2. <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">パッケージファイル</a>をダウンロードして適当なフォルダに展開します。
+2. パッケージファイル <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
+  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">{{ page.app_package }}-{{ page.app_version }}.zip</a> をダウンロードして適当なフォルダに展開します。
 
 3. コマンドラインから以下のようにスクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
 
         $ gura gurashot.guraw
 
 
-## <a name="test-environment"></a>13. 動作確認環境
+## <a name="install-macos"></a>13. インストール (MacOS)
+
+1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
+   の環境が必要です (無償)。[ダウンロード](http://www.gura-lang.org/Download.html) ページから
+   MacOS ディスクイメージ `gura-x.x.x.dmg` (`x.x.x` はバージョン番号) をダウンロードし、
+   インストールしてください。バージョン `0.6.2` 以降に対応しています。
+
+2. MacOS ディスクイメージ <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
+  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.dmg');">{{ page.app_package }}-{{ page.app_version }}.dmg</a> をダウンロードして開き、`Gura Shot.app` を `Applications` フォルダにドラッグします。
+
+3. 初めて実行する場合は、Finder で `Gura Shot.app` を選択し、右クリックメニューで「開く」を実行してください。
+   二度目以降は Launchpad から起動できます。
+
+
+## <a name="test-environment"></a>14. 動作確認環境
 
 * **Windows** &hellip; Windows 7, Windows 8.1
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
+* **MacOS** &hellip; OS X 10.9 Mavericks
 
-
-## <a name="history"></a>14. 変更履歴
+## <a name="history"></a>15. 変更履歴
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
@@ -404,7 +420,7 @@ EXIF 情報を読み込んで画像の向きを設定する機能を実装<br />
 </table>
 
 
-## <a name="for-developers"></a>15. 開発者むけ情報
+## <a name="for-developers"></a>16. 開発者むけ情報
 
 このアプリケーションは GitHub レポジトリで管理されています。
 

@@ -18,3 +18,4 @@ import(png)
 }
 image('main-with-image.png').resize(200).write('main-with-image-snapshot.png')
 image('main-with-image-linux.png').resize(200).write('main-with-image-linux-snapshot.png')
+image('main-with-image-macos.png').resize(200).write('main-with-image-macos-snapshot.png')
