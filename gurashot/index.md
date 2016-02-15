@@ -31,12 +31,14 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.dmg');">ダウンロード</a>
 </th>
-<tr>
+</tr>
+
 <tr>
 <td><img alt="main-with-image-snapshot" src="images/main-with-image-snapshot.png" /></td>
 <td><img alt="main-with-image-linux-snapshot" src="images/main-with-image-linux-snapshot.png" /></td>
 <td><img alt="main-with-image-linux-snapshot" src="images/main-with-image-macos-snapshot.png" /></td>
 </tr>
+
 <tr>
 <td><a href="#install-windows">インストール方法</a></td>
 <td><a href="#install-linux">インストール方法</a></td>

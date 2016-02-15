@@ -57,12 +57,14 @@ Gura Shot 1.0.4 をリリースしました。
 デジカメの画像から必要なサイズの証明写真をカンタンに作れる
 </td>
 </tr>
+
 <tr>
 <td><img src="getterphoto/images/getterphoto-ico.png" /></td>
 <td>
 <div><a href="getterphoto">デジカメ写真取り込みアプリ Getter Photo</a></div>
 デジカメで撮影した画像ファイルをパソコンに取り込む
 </td>
+</tr>
 </table>
 
 
