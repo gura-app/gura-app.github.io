@@ -9,7 +9,7 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 
 <table>
 <tr><td valign="top" style="white-space:nowrap">2016-01-21</td><td>
-MacOS 用 Gura Shot 1.4.0 をリリースしました。
+Mac OS X 用 Gura Shot 1.4.0 をリリースしました。
 </td></tr>
 
 <tr><td valign="top" style="white-space:nowrap">2016-01-15</td><td>
