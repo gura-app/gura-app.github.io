@@ -393,7 +393,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 ## <a name="test-environment"></a>14. 動作確認環境
 
-* **Windows** &hellip; Windows 7, Windows 8.1
+* **Windows** &hellip; Windows 7, Windows 8.1, Windows 10
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
 * **Mac OS X** &hellip; OS X 10.9 Mavericks
 
