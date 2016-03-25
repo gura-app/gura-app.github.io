@@ -1,0 +1,5 @@
+#!/usr/bin/env gura
+import(png)
+
+(image('main.png').resize(.7):ratio).write('main-shrink.png')
+image('main.png').resize(200).write('main-snapshot.png')

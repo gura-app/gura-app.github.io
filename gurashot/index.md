@@ -16,17 +16,17 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 <table>
 <tr>
-<th>Windows
+<th>Windows 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a>
 </th>
-<th>Linux
+<th>Linux 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a>
 </th>
-<th>Mac OS X
+<th>Mac OS X 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.dmg');">ダウンロード</a>
