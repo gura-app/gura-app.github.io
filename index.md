@@ -8,6 +8,11 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 ## おしらせ
 
 <table>
+<tr><td valign="top" style="white-space:nowrap">2017-01-28</td><td>
+Gura Shot が<a href="http://www.dosv.jp">DOS/V Power Report 2017 年 3 月号
+特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」</a>に掲載されました。
+</td></tr>
+
 <tr><td valign="top" style="white-space:nowrap">2016-01-21</td><td>
 Mac OS X 用 Gura Shot 1.4.0 をリリースしました。
 </td></tr>
