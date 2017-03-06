@@ -12,10 +12,19 @@ app_iconimage: images/gurashot-ico.png
 Gura Shot は、デジカメの画像から必要なサイズの証明写真をカンタンに作れる
 アプリケーションです。
 
-紹介サイト: [窓の杜](http://www.forest.impress.co.jp/docs/review/20140730_659980.html)
-
-紹介雑誌: [DOS/V Power Report 2017 年 3 月号 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」](http://www.dosv.jp)
-
+<table>
+<tr>
+<td>掲載サイト</td>
+<td><a href="http://www.forest.impress.co.jp/docs/review/20140730_659980.html">窓の杜</a></td>
+</tr>
+<tr>
+<td>掲載雑誌</td>
+<td>
+<div><a href="http://store.nikkeibp.co.jp/item/backno/NP0761.html">日経パソコン 2017 年 1 月 9 日号「即効！フリーソフト便利帳」</a></div>
+<div><a href="http://www.dosv.jp">DOS/V Power Report 2017 年 3 月号 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」</a></div>
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
