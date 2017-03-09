@@ -8,13 +8,17 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 ## おしらせ
 
 <table>
+<tr><td valign="top" style="white-space:nowrap">2017-02-16</td><td>
+Gura Shot が Windows 最強フリーソフト パーフェクトガイド 2017 (マイウェイ出版) に掲載されました。
+</td></tr>
+
 <tr><td valign="top" style="white-space:nowrap">2017-01-28</td><td>
-Gura Shot が <a href="http://www.dosv.jp">DOS/V Power Report 2017 年 3 月号
+Gura Shot が <a href="http://www.dosv.jp">DOS/V Power Report 2017 年 3 月号 (Impress)
 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」</a> に掲載されました。
 </td></tr>
 
 <tr><td valign="top" style="white-space:nowrap">2017-01-09</td><td>
-Gura Shot が <a href="http://store.nikkeibp.co.jp/item/backno/NP0761.html">日経パソコン 2017 年 1 月 9 日号
+Gura Shot が <a href="http://store.nikkeibp.co.jp/item/backno/NP0761.html">日経パソコン 2017 年 1 月 9 日号 (日経 BP)
 「即効！フリーソフト便利帳」</a> で紹介されました。
 </td></tr>
 

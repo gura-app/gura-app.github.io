@@ -14,20 +14,6 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 <table>
 <tr>
-<td>掲載サイト</td>
-<td><a href="http://www.forest.impress.co.jp/docs/review/20140730_659980.html">窓の杜</a></td>
-</tr>
-<tr>
-<td>掲載雑誌</td>
-<td>
-<div><a href="http://store.nikkeibp.co.jp/item/backno/NP0761.html">日経パソコン 2017 年 1 月 9 日号「即効！フリーソフト便利帳」</a></div>
-<div><a href="http://www.dosv.jp">DOS/V Power Report 2017 年 3 月号 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」</a></div>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
 <th>Windows 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
@@ -70,6 +56,16 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+**紹介されたサイト・出版物**
+
+* [窓の杜 レビュー](http://www.forest.impress.co.jp/docs/review/20140730_659980.html)
+* [日経パソコン 2017 年 1 月 9 日号 (日経 BP) 「即効！フリーソフト便利帳」](http://store.nikkeibp.co.jp/item/backno/NP0761.html)
+* [DOS/V Power Report 2017 年 3 月号 (Impress) 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」](http://www.dosv.jp)
+* Windows 最強フリーソフト パーフェクトガイド 2017 (マイウェイ出版)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+**目次**
 
 1. <a href="#basic-operation">基本的な使い方</a>
 2. <a href="#trimming">画像切り出し機能</a>
