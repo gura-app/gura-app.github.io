@@ -8,6 +8,12 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 ## おしらせ
 
 <table>
+<tr><td valign="top" style="white-space:nowrap">2017-03-29</td><td>
+Gura Shot が
+<a href="http://book.impress.co.jp/books/1116102062">無料で Windows が快適になる鉄板フリーソフト 2017「窓の杜」公式 (Impress)</a>
+に掲載されました。
+</td></tr>
+
 <tr><td valign="top" style="white-space:nowrap">2017-02-16</td><td>
 Gura Shot が Windows 最強フリーソフト パーフェクトガイド 2017 (マイウェイ出版) に掲載されました。
 </td></tr>
