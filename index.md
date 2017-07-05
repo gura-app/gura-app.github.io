@@ -9,6 +9,10 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 
 <table>
 
+<tr><td valign="top" style="white-space:nowrap">2017-07-05</td><td>
+Getter Photo 1.0.2 をリリースしました。
+</td></tr>
+
 <tr><td valign="top" style="white-space:nowrap">2017-05-31</td><td>
 Gura Shot 1.4.2 をリリースしました。
 </td></tr>
