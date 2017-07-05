@@ -4,7 +4,7 @@ lang: ja
 title: デジカメ写真取り込みアプリ Getter Photo
 description: デジカメで撮影した画像ファイルをパソコンに取り込むアプリケーション
 app_package: getterphoto
-app_version: 1.0.1
+app_version: 1.0.2
 app_iconimage: images/getterphoto-ico.png
 ---
 
@@ -86,6 +86,10 @@ SD カードなどのメディアを PC に接続してアプリケーション�
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
+
+<tr><td>v1.0.2</td><td>2017/07/05</td><td>
+Gura v0.7.0 に対応
+</td></tr>
 
 <tr><td>v1.0.1</td><td>2015/06/24</td><td>
 Gura v0.6.2 に対応
