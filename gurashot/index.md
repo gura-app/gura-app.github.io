@@ -231,14 +231,17 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 <table>
 
-<tr><td valign="top">履歴書・自動車運転免許</td>
-<td><img src="images/output-resume-and-license-shrink.jpg" /></td></tr>
+<tr><td valign="top">[40 x 30mm] &amp; [30 x 30mm]</td>
+<td><img src="images/output-40x30_30x30-shrink.jpg" /></td></tr>
 
-<tr><td valign="top">履歴書・雇用保険受給申請</td>
-<td><img src="images/output-resume-and-assurance-shrink.jpg" /></td></tr>
+<tr><td valign="top">[40 x 30mm] &amp; [30 x 25mm]</td>
+<td><img src="images/output-40x30_30x25-shrink.jpg" /></td></tr>
 
-<tr><td valign="top">パスポート・自動車運転免許</td>
-<td><img src="images/output-passport-and-license-shrink.jpg" /></td></tr>
+<tr><td valign="top">[40 x 30mm] &amp; [30 x 24mm]</td>
+<td><img src="images/output-40x30_30x24-shrink.jpg" /></td></tr>
+
+<tr><td valign="top">[45 x 35mm] &amp; [30 x 24mm]</td>
+<td><img src="images/output-45x35_30x24-shrink.jpg" /></td></tr>
 
 <tr><td valign="top">A-one プリンタラベル 29603/29613</td>
 <td><img src="images/output-a-one-shrink.jpg" /></td></tr>
@@ -299,13 +302,13 @@ Gura Shot の「プリントサービス機能」は、出力画像の周辺に�
 
 <table>
 <tr><th>プリントサービス</th><th>機種名</th><th>調整用ラインの数</th><th>印刷確認 (*)</th></tr>
-<tr><td>サークル K サンクス</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 7, d = 10</td><td>2014/06/30</td></tr>
-<tr><td>スリーエフ</td><td>SHARP MX-4500DS</td><td>a = 11, b = 10, c = 8, d = 8</td><td>2014/06/30</td></tr>
-<tr><td>セブンイレブン</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 7, c = 7, d = 6</td><td>2014/06/30</td></tr>
-<tr><td>ファミリーマート</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
-<tr><td>ローソン</td><td>SHARP MX-3610DS</td><td>a = 13, b = 12, c = 13, d = 12</td><td>2014/06/30</td></tr>
-<tr><td>FOTOLUSIO PrintRush</td><td>DNP (型番不明)</td><td>a = 13, b = 14, c = 12, d = 13</td><td>2014/07/11</td></tr>
-<tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td>2014/07/11</td></tr>
+<tr><td>サークル K サンクス</td><td>SHARP MX-4500DS</td><td>a = 11, b = 11, c = 8, d = 9</td><td>2014 年 6 月</td></tr>
+<tr><td>スリーエフ (2017)</td><td>SHARP MX-4500DS</td><td>a = 11, b = 11, c = 8, d = 9</td><td>2017 年 12 月</td></tr>
+<tr><td>セブンイレブン (2017)</td><td>Fuji Xerox (型番不明)</td><td>a = 10, b = 11, c = 9, d = 10</td><td>2017 年 12 月</td></tr>
+<tr><td>ファミリーマート (2017)</td><td>SHARP MX-3610DS</td><td>a = 13, b = 13, c = 13, d = 12</td><td>2017 年 12 月</td></tr>
+<tr><td>ローソン (2017)</td><td>SHARP MX-3610DS</td><td>a = 13, b = 13, c = 13, d = 12</td><td>2017 年 12 月</td></tr>
+<tr><td>FOTOLUSIO PrintRush</td><td>DNP (型番不明)</td><td>a = 13, b = 14, c = 12, d = 13</td><td>2014 年 7 月</td></tr>
+<tr><td>三菱カラープリント</td><td>三菱電機ミクプリ</td><td>a = 11, b = 10, c = 7, d = 10</td><td>2014 年 7 月</td></tr>
 </table>
 
 (*) この設定で、自動車運転免許用写真 (30 x 24mm) を 0.1mm 程度の誤差範囲内で印刷できることを確認しました。
