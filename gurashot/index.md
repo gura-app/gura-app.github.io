@@ -354,20 +354,18 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
   <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a> して適当なフォルダに展開します。
 
-3. エキスプローラでスクリプトファイル `gurashot.guraw` をダブルクリックするとアプリケーションが起動します。
-
-4. デスクトップにアイコンを作りたい場合はスクリプトファイル `setup.guraw` を実行してください。
-   `[セットアップ]` ボタンをクリックするとセットアップを行います。
+3. 展開したファイル中から `setup.gura` をダブルクリックし「Gura アプリケーションセットアップ」を実行します。
+   `[セットアップ]` ボタンをクリックするとデスクトップに起動用アイコンを作成します。
    セットアップをした後は、パッケージから展開したファイルを削除してもかまいません。
 
-   セットアップの詳細については [Gura アプリケーションセットアップ]({{ topdir }}/setup/) をご覧ください。
+   「Gura アプリケーションセットアップ」の詳細については [こちら]({{ topdir }}/setup/) をご覧ください。
 
 
 ## <a name="install-linux"></a>12. インストール方法 - Linux
 
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
-   ソースパッケージ ``gura-x.x.x-src.tar.gz` (`x.x.x` はバージョン番号) を
+   ソースパッケージ `gura-x.x.x-src.tar.gz` (`x.x.x` はバージョン番号) を
    [ダウンロード](http://www.gura-lang.org/Download.html) し、
    インストール手順に従って Gura 本体とモジュールをインストールしてください。
    バージョン `0.5.2` 以降に対応しています。
