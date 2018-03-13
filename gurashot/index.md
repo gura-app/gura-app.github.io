@@ -4,7 +4,7 @@ lang: ja
 title: おうちで証明写真 Gura Shot
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 app_package: gurashot
-app_version: 1.4.2
+app_version: 1.4.3
 app_iconimage: images/gurashot-ico.png
 ---
 
@@ -411,6 +411,13 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
+
+<tr><td>v1.4.3</td><td>2018/03/13</td><td>
+プリントサービスの a-b-c-d 値を調整<br />
+定形フォーマット出力の名前を変更<br />
+定形フォーマット「[40x30mm] &amp; [30x30mm]」を追加<br />
+顔イメージを 1500x1500 以内に縮小<br />
+</td></tr>
 
 <tr><td>v1.4.2</td><td>2017/05/31</td><td>
 Gura v0.7.0 に対応<br />
