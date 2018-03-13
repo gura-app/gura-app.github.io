@@ -24,7 +24,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a>
 </th>
-<th>Mac OS X 用
+<th>macOS 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.dmg');">ダウンロード</a>
@@ -80,7 +80,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 10. <a href="#user-defined-frame">ユーザ定義割り付けフレーム</a>
 11. <a href="#install-windows">インストール方法 - Windows</a>
 12. <a href="#install-linux">インストール方法 - Linux</a>
-13. <a href="#install-macos">インストール方法 - Mac OS X</a>
+13. <a href="#install-macos">インストール方法 - macOS</a>
 14. <a href="#test-environment">動作確認環境</a>
 15. <a href="#history">変更履歴</a>
 16. <a href="#for-developers">開発者むけ情報</a>
@@ -384,15 +384,15 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
         $ gura gurashot.guraw
 
 
-## <a name="install-macos"></a>13. インストール方法 - Mac OS X
+## <a name="install-macos"></a>13. インストール方法 - macOS
 
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
-   Mac OS X ディスクイメージ `gura-x.x.x.dmg` (`x.x.x` はバージョン番号) を
+   macOS ディスクイメージ `gura-x.x.x.dmg` (`x.x.x` はバージョン番号) を
    [ダウンロード](http://www.gura-lang.org/Download.html) し、
    インストールしてください。バージョン `0.6.2` 以降に対応しています。
 
-2. Mac OS X ディスクイメージ `{{ page.app_package }}-{{ page.app_version }}.dmg` を
+2. macOS ディスクイメージ `{{ page.app_package }}-{{ page.app_version }}.dmg` を
   <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
   onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.dmg');">ダウンロード</a> して開き、`Gura Shot.app` を `Applications` フォルダにドラッグします。
 
@@ -404,7 +404,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 * **Windows** &hellip; Windows 7, Windows 8.1, Windows 10
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
-* **Mac OS X** &hellip; OS X 10.9 Mavericks
+* **macOS** &hellip; Mavericks (10.9), Sierra (10.12)
 
 ## <a name="history"></a>15. 変更履歴
 
