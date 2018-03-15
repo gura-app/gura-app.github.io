@@ -417,6 +417,8 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 定形フォーマット出力の名前を変更<br />
 定形フォーマット「[40x30mm] &amp; [30x30mm]」を追加<br />
 顔イメージを 1500x1500 以内に縮小<br />
+セットアップスクリプトのファイル名を <code>setup.guraw</code> から <code>setup.gura</code> に変更。
+Windows 環境によっては拡張子 <code>guraw</code> が Gura プログラムに関連づけられないため。<br />
 </td></tr>
 
 <tr><td>v1.4.2</td><td>2017/05/31</td><td>
