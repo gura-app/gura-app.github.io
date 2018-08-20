@@ -348,7 +348,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
    Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を
-   [ダウンロード](http://www.gura-lang.org/Download.html) し、
+   [ダウンロード](http://www.gura-lang.org/download/) し、
    インストールしてください。バージョン `0.6.0` 以降に対応しています。
 
    また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
@@ -369,7 +369,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
    ソースパッケージ `gura-x.x.x-src.tar.gz` (`x.x.x` はバージョン番号) を
-   [ダウンロード](http://www.gura-lang.org/Download.html) し、
+   [ダウンロード](http://www.gura-lang.org/download/) し、
    インストール手順に従って Gura 本体とモジュールをインストールしてください。
    バージョン `0.6.0` 以降に対応しています。
 
@@ -390,7 +390,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
    macOS ディスクイメージ `gura-x.x.x.dmg` (`x.x.x` はバージョン番号) を
-   [ダウンロード](http://www.gura-lang.org/Download.html) し、
+   [ダウンロード](http://www.gura-lang.org/download/) し、
    インストールしてください。バージョン `0.6.2` 以降に対応しています。
 
 2. macOS ディスクイメージ `{{ page.app_package }}-{{ page.app_version }}.dmg` を

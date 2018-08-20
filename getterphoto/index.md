@@ -61,7 +61,7 @@ SD カードなどのメディアを PC に接続してアプリケーション�
 1. このアプリケーションを実行するには [Gura プログラミング言語](http://www.gura-lang.org/)
    の環境が必要です (無償)。
    Windows Installer `gura-x.x.x-win32.msi` (`x.x.x` はバージョン番号) を
-   [ダウンロード](http://www.gura-lang.org/Download.html) し、
+   [ダウンロード](http://www.gura-lang.org/download/) し、
    インストールしてください。バージョン `0.6.2` 以降に対応しています。
 
 2. パッケージファイル `{{ page.app_package }}-{{ page.app_version }}.zip` を
