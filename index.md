@@ -9,6 +9,10 @@ description: Gura プログラミング言語を使ったフリーソフトを�
 
 <table>
 
+<tr><td valign="top" style="white-space:nowrap">2018-08-29</td><td>
+Gura Shot 1.4.4 をリリースしました。
+</td></tr>
+
 <tr><td valign="top" style="white-space:nowrap">2018-03-13</td><td>
 Gura Shot 1.4.3 をリリースしました。
 </td></tr>
