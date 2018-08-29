@@ -16,7 +16,7 @@ Getter Photo は、デジカメで撮影した画像ファイルをパソコン�
 <th>Windows 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
 <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a>
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a>
 </th>
 </tr>
 
@@ -66,7 +66,7 @@ SD カードなどのメディアを PC に接続してアプリケーション�
 
 2. パッケージファイル `{{ page.app_package }}-{{ page.app_version }}.zip` を
   <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="ga('send', 'event', 'download', 'click', '{{ page.app_package }}-{{ page.app_version }}.zip');">ダウンロード</a> して適当なフォルダに展開します。
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a> して適当なフォルダに展開します。
 
 3. エキスプローラでスクリプトファイル `getterphoto.guraw` をダブルクリックするとアプリケーションが起動します。
 
