@@ -58,6 +58,7 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 
 **紹介されたサイト・出版物**
 
+* [日経 PC21 2018 年 10 月号 (日経 BP)](https://trendy.nikkeibp.co.jp/atcl/column/16/071100050/081600051/)
 * [窓の杜 レビュー](http://www.forest.impress.co.jp/docs/review/20140730_659980.html)
 * [日経パソコン 2017 年 1 月 9 日号 (日経 BP) 「即効！フリーソフト便利帳」](http://store.nikkeibp.co.jp/item/backno/NP0761.html)
 * [DOS/V Power Report 2017 年 3 月号 (Impress) 特別付録小冊子「窓の杜連動 人気オンラインソフト 100+」](http://www.dosv.jp)
