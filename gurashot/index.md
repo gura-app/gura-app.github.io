@@ -4,7 +4,8 @@ lang: ja
 title: おうちで証明写真 Gura Shot
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 app_package: gurashot
-app_version: 1.4.4
+app_version_zip: 1.4.4a
+app_version_dmg: 1.4.4
 app_iconimage: images/gurashot-ico.png
 ---
 
@@ -16,18 +17,18 @@ Gura Shot は、デジカメの画像から必要なサイズの証明写真を�
 <tr>
 <th>Windows 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
-<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a>
+<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_zip }}/{{ page.app_package }}-{{ page.app_version_zip }}.zip"
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_zip }}.zip'});">ダウンロード</a>
 </th>
 <th>Linux 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
-<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a>
+<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_zip }}/{{ page.app_package }}-{{ page.app_version_zip }}.zip"
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_zip }}.zip'});">ダウンロード</a>
 </th>
 <th>macOS 用
 <img src="{{ topdir }}/images/b-download.png" style="margin-left:.5em" />
-<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
-  onClick="gtag('event', 'dmg', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.dmg'});">ダウンロード</a>
+<a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_dmg }}/{{ page.app_package }}-{{ page.app_version_dmg }}.dmg"
+  onClick="gtag('event', 'dmg', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_dmg }}.dmg'});">ダウンロード</a>
 </th>
 </tr>
 
@@ -354,9 +355,9 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
    また、Adobe Reader など PDF を閲覧・印刷できるソフトをインストールしておいてください。
 
-2. パッケージファイル `{{ page.app_package }}-{{ page.app_version }}.zip` を
-  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a> して適当なフォルダに展開します。
+2. パッケージファイル `{{ page.app_package }}-{{ page.app_version_zip }}.zip` を
+  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_zip }}/{{ page.app_package }}-{{ page.app_version_zip }}.zip"
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_zip }}.zip'});">ダウンロード</a> して適当なフォルダに展開します。
 
 3. 展開したファイル中から `setup.gura` をダブルクリックし「Gura アプリケーションセットアップ」を実行します。
    `[セットアップ]` ボタンをクリックするとデスクトップに起動用アイコンを作成します。
@@ -377,9 +378,9 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
    また、PDF の閲覧・印刷をするソフトとして、Ubuntu にはデフォルトで evince が入っていますが、
    お好みで Adobe Reader などのソフトをインストールしておいてください。
 
-2. パッケージファイル `{{ page.app_package }}-{{ page.app_version }}.zip` を
-  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.zip"
-  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.zip'});">ダウンロード</a> して適当なフォルダに展開します。
+2. パッケージファイル `{{ page.app_package }}-{{ page.app_version_zip }}.zip` を
+  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_zip }}/{{ page.app_package }}-{{ page.app_version_zip }}.zip"
+  onClick="gtag('event', 'zip', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_zip }}.zip'});">ダウンロード</a> して適当なフォルダに展開します。
 
 3. コマンドラインから以下のようにスクリプトファイル `gurashot.guraw` を実行するとプログラムが起動します。
 
@@ -394,9 +395,9 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
    [ダウンロード](http://www.gura-lang.org/download/) し、
    インストールしてください。バージョン `0.6.2` 以降に対応しています。
 
-2. macOS ディスクイメージ `{{ page.app_package }}-{{ page.app_version }}.dmg` を
-  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version }}/{{ page.app_package }}-{{ page.app_version }}.dmg"
-  onClick="gtag('event', 'dmg', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version }}.dmg'});">ダウンロード</a> して開き、`Gura Shot.app` を `Applications` フォルダにドラッグします。
+2. macOS ディスクイメージ `{{ page.app_package }}-{{ page.app_version_dmg }}.dmg` を
+  <a href="https://github.com/gura-app/{{ page.app_package }}/releases/download/v{{ page.app_version_dmg }}/{{ page.app_package }}-{{ page.app_version_dmg }}.dmg"
+  onClick="gtag('event', 'dmg', {'event_category' : 'Downloads', 'event_label' : '{{ page.app_package }}-{{ page.app_version_dmg }}.dmg'});">ダウンロード</a> して開き、`Gura Shot.app` を `Applications` フォルダにドラッグします。
 
 3. 初めて実行する場合は、Finder で `Gura Shot.app` を選択し、右クリックメニューで「開く」を実行してください。
    二度目以降は Launchpad から起動できます。
