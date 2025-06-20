@@ -4,7 +4,7 @@ lang: ja
 title: おうちで証明写真 Gura Shot
 description: デジカメの画像から必要なサイズの証明写真をカンタンに作れるアプリケーション
 app_package: gurashot
-app_version_zip: 1.4.4a
+app_version_zip: 1.4.5
 app_version_dmg: 1.4.4
 app_iconimage: images/gurashot-ico.png
 ---
@@ -409,7 +409,7 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 ## <a name="test-environment"></a>14. 動作確認環境
 
-* **Windows** &hellip; Windows 7, Windows 8.1, Windows 10
+* **Windows** &hellip; Windows 7, Windows 8.1, Windows 10, Windows 11
 * **Linux** &hellip; Ubuntu 13.10, Ubuntu 14.04, Xubuntu 14.04, Lubuntu 14.04
 * **macOS** &hellip; Mavericks (10.9), Sierra (10.12)
 
@@ -417,6 +417,10 @@ a と b、c と d は、それぞれ足した数が同じであれば同一の�
 
 <table>
 <tr><th>バージョン</th><th>リリース</th><th>変更内容</th></tr>
+
+<tr><td>v1.4.5</td><td>2025/06/20</td><td>
+Windows 11 で起動できないバグを修正
+</td></tr>
 
 <tr><td>v1.4.4</td><td>2018/08/29</td><td>
 イメージの比率を修正
